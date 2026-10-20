@@ -1,0 +1,5539 @@
+{
+  "version": "1.0.0",
+  "generatedAt": "2026-10-20T18:28:27+0800",
+  "generator": {
+    "R": "4.3.2",
+    "glmnet": "5.1",
+    "xgboost": "3.2.1.1"
+  },
+  "modelHash": "e28863167b4ae0216b1f92bff0a2ff47",
+  "features": [
+    {
+      "name": "valid_data_ratio_day",
+      "group": "day_CGM",
+      "min": 0.597222222222222,
+      "p01": 0.736111111111111,
+      "median": 1,
+      "p99": 1,
+      "max": 1,
+      "sd": 0.0478196730690971
+    },
+    {
+      "name": "mean_glucose_day",
+      "group": "day_CGM",
+      "min": 2.2,
+      "p01": 4.74119444444444,
+      "median": 8.15,
+      "p99": 17.0675277777778,
+      "max": 25.5171428571429,
+      "sd": 2.60359183008897
+    },
+    {
+      "name": "median_day",
+      "group": "day_CGM",
+      "min": 2.2,
+      "p01": 4.4,
+      "median": 7.9,
+      "p99": 17.567,
+      "max": 26.95,
+      "sd": 2.76333765519533
+    },
+    {
+      "name": "ehba1c_day",
+      "group": "day_CGM",
+      "min": 3.00696864111498,
+      "p01": 4.60074912891986,
+      "median": 6.73867595818815,
+      "p99": 12.3315505226481,
+      "max": 17.6309606769537,
+      "sd": 1.63291473664116
+    },
+    {
+      "name": "ehba1c_mmol_mol_day",
+      "group": "day_CGM",
+      "min": 9.34596240834044,
+      "p01": 26.768136520768,
+      "median": 50.1385653496737,
+      "p99": 111.276240955925,
+      "max": 169.205954055025,
+      "sd": 17.8499643270787
+    },
+    {
+      "name": "cv_day",
+      "group": "day_CGM",
+      "min": 8.14742179354046e-16,
+      "p01": 0.0937700678346098,
+      "median": 0.233857084569116,
+      "p99": 0.513179106886169,
+      "max": 0.718398726138154,
+      "sd": 0.0899020889704589
+    },
+    {
+      "name": "sd_day",
+      "group": "day_CGM",
+      "min": 1.7924327945789e-15,
+      "p01": 0.613066543235509,
+      "median": 1.9863304375654,
+      "p99": 5.13423364117022,
+      "max": 10.4513617755278,
+      "sd": 0.965761539418578
+    },
+    {
+      "name": "mage_day",
+      "group": "day_CGM",
+      "min": 0.683333333333333,
+      "p01": 1.45,
+      "median": 5.05,
+      "p99": 14.2,
+      "max": 26.4,
+      "sd": 2.73233058113988
+    },
+    {
+      "name": "modd_day",
+      "group": "day_CGM",
+      "min": 0.302777777777778,
+      "p01": 0.584044776119403,
+      "median": 1.92127659574468,
+      "p99": 6.34897222222222,
+      "max": 14.5602941176471,
+      "sd": 1.22621996808969
+    },
+    {
+      "name": "lage_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 2.6,
+      "median": 7.6,
+      "p99": 17.6,
+      "max": 26.7,
+      "sd": 3.20730439519143
+    },
+    {
+      "name": "bgri_day",
+      "group": "day_CGM",
+      "min": 0.211363152785,
+      "p01": 0.547448456439143,
+      "median": 5.22800591337997,
+      "p99": 36.7667708264034,
+      "max": 70.0685762578757,
+      "sd": 7.36774914114178
+    },
+    {
+      "name": "lbgi_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 0.761636370947015,
+      "p99": 12.862748851733,
+      "max": 37.1210013233961,
+      "sd": 2.8474380422418
+    },
+    {
+      "name": "hbgi_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0.0959686863804403,
+      "median": 5.52802777167807,
+      "p99": 36.4746436993251,
+      "max": 70.0685762578757,
+      "sd": 7.60616446152165
+    },
+    {
+      "name": "min_day",
+      "group": "day_CGM",
+      "min": 2.2,
+      "p01": 2.2,
+      "median": 4.8,
+      "p99": 11.5,
+      "max": 19.2,
+      "sd": 1.95360860216196
+    },
+    {
+      "name": "max_day",
+      "group": "day_CGM",
+      "min": 2.2,
+      "p01": 6.8,
+      "median": 12.7,
+      "p99": 24.278,
+      "max": 31.6,
+      "sd": 3.69800134699507
+    },
+    {
+      "name": "jindex_day",
+      "group": "day_CGM",
+      "min": 1.56816000000001,
+      "p01": 10.3086918093941,
+      "median": 34.1636977069945,
+      "p99": 141.981765358947,
+      "max": 278.610231625018,
+      "sd": 27.0337524918684
+    },
+    {
+      "name": "adrr_day",
+      "group": "day_CGM",
+      "min": 1.78122843297968,
+      "p01": 3.97469015170378,
+      "median": 23.4135906396857,
+      "p99": 72.9756102690455,
+      "max": 116.752076867474,
+      "sd": 15.5054663507218
+    },
+    {
+      "name": "mvalue_day",
+      "group": "day_CGM",
+      "min": 0.0547018007294263,
+      "p01": 0.24678654804109,
+      "median": 5.28570451821585,
+      "p99": 77.2403323297863,
+      "max": 200.057640518825,
+      "sd": 15.1168229011026
+    },
+    {
+      "name": "gmi_mmol_mol_day",
+      "group": "day_CGM",
+      "min": 23.062914,
+      "p01": 35.0214447002778,
+      "median": 51.0628405,
+      "p99": 93.0275669436111,
+      "max": 132.790357057143,
+      "sd": 12.2521646854607
+    },
+    {
+      "name": "gmi_day",
+      "group": "day_CGM",
+      "min": 4.257232,
+      "p01": 5.35136868,
+      "median": 6.819064,
+      "p99": 10.65859476,
+      "max": 14.2966610285714,
+      "sd": 1.1210024983631
+    },
+    {
+      "name": "iqr_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0.630500000000001,
+      "median": 2.7,
+      "p99": 8.51949999999999,
+      "max": 21.75,
+      "sd": 1.69127237849188
+    },
+    {
+      "name": "percentile10_day",
+      "group": "day_CGM",
+      "min": 2.2,
+      "p01": 2.5,
+      "median": 5.255,
+      "p99": 12.2,
+      "max": 20.435,
+      "sd": 1.9766065357756
+    },
+    {
+      "name": "percentile25_day",
+      "group": "day_CGM",
+      "min": 2.2,
+      "p01": 3.4805,
+      "median": 6.55,
+      "p99": 14.6945,
+      "max": 22.6,
+      "sd": 2.33130039984713
+    },
+    {
+      "name": "percentile75_day",
+      "group": "day_CGM",
+      "min": 2.2,
+      "p01": 5.225,
+      "median": 9.6,
+      "p99": 20.125,
+      "max": 28.6,
+      "sd": 3.17778520671385
+    },
+    {
+      "name": "percentile90_day",
+      "group": "day_CGM",
+      "min": 2.2,
+      "p01": 6.1922,
+      "median": 11.8,
+      "p99": 23.223,
+      "max": 30.75,
+      "sd": 3.63129673122358
+    },
+    {
+      "name": "gri_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 26.6666666666667,
+      "p99": 146.666666666667,
+      "max": 300,
+      "sd": 36.7093778039898
+    },
+    {
+      "name": "tir_below_2_8__min_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 0,
+      "p99": 116.699999999996,
+      "max": 840,
+      "sd": 28.1426863768837
+    },
+    {
+      "name": "tir_2_8_to__pct_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 0,
+      "p99": 0.111111111111111,
+      "max": 1,
+      "sd": 0.0275444887673838
+    },
+    {
+      "name": "tir_below_3__min_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 0,
+      "p99": 165,
+      "max": 915,
+      "sd": 35.0525978502098
+    },
+    {
+      "name": "tir_3_to__pct_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 0,
+      "p99": 0.152777777777778,
+      "max": 1,
+      "sd": 0.0340499548517233
+    },
+    {
+      "name": "tir_3_to_3_9__min_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 0,
+      "p99": 255,
+      "max": 510,
+      "sd": 51.2504045515537
+    },
+    {
+      "name": "x_3_3_9_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 0,
+      "p99": 0.236111111111111,
+      "max": 0.472222222222222,
+      "sd": 0.048913094571848
+    },
+    {
+      "name": "tir_below_3_9__min_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 0,
+      "p99": 360,
+      "max": 1065,
+      "sd": 74.9916161048289
+    },
+    {
+      "name": "tir_3_9_to__pct_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 0,
+      "p99": 0.347222222222222,
+      "max": 1,
+      "sd": 0.0719227525268019
+    },
+    {
+      "name": "tir_3_9_to_10__min_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 795,
+      "p99": 1080,
+      "max": 1080,
+      "sd": 303.893357159163
+    },
+    {
+      "name": "x_3_9_10_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 0.75,
+      "p99": 1,
+      "max": 1,
+      "sd": 0.286031768169553
+    },
+    {
+      "name": "tir_below_10__min_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 225,
+      "p99": 1080,
+      "max": 1110,
+      "sd": 314.067583998215
+    },
+    {
+      "name": "tir_10_to__pct_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 0.208333333333333,
+      "p99": 1,
+      "max": 1,
+      "sd": 0.292001700615179
+    },
+    {
+      "name": "tir_10_to_13_9__min_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 180,
+      "p99": 795,
+      "max": 1080,
+      "sd": 211.391931004107
+    },
+    {
+      "name": "x_10_13_9_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 0.166666666666667,
+      "p99": 0.749225352112675,
+      "max": 1,
+      "sd": 0.196533036673873
+    },
+    {
+      "name": "tir_below_13_9__min_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 0,
+      "p99": 870,
+      "max": 1080,
+      "sd": 185.773577173824
+    },
+    {
+      "name": "tir_13_9_to__pct_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 0,
+      "p99": 0.805555555555556,
+      "max": 1,
+      "sd": 0.173119003975195
+    },
+    {
+      "name": "tir_10_to_16_7__min_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 210,
+      "p99": 990,
+      "max": 1080,
+      "sd": 274.030195417607
+    },
+    {
+      "name": "x_10_16_7_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 0.194444444444444,
+      "p99": 0.916666666666667,
+      "max": 1,
+      "sd": 0.254503347638671
+    },
+    {
+      "name": "tir_13_9_to_16_7__min_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 0,
+      "p99": 510,
+      "max": 930,
+      "sd": 112.882713060522
+    },
+    {
+      "name": "x_13_9_16_7_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 0,
+      "p99": 0.472222222222222,
+      "max": 0.861111111111111,
+      "sd": 0.104823468666984
+    },
+    {
+      "name": "tir_below_16_7__min_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 0,
+      "p99": 611.699999999996,
+      "max": 1080,
+      "sd": 109.901063397951
+    },
+    {
+      "name": "tir_16_7_to__pct_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 0,
+      "p99": 0.569444444444444,
+      "max": 1,
+      "sd": 0.102893898542395
+    },
+    {
+      "name": "tir_3_to_3_5__min_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 0,
+      "p99": 135,
+      "max": 405,
+      "sd": 28.4008034438313
+    },
+    {
+      "name": "x_3_3_5_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 0,
+      "p99": 0.138888888888889,
+      "max": 0.375,
+      "sd": 0.0270926056324785
+    },
+    {
+      "name": "tir_below_3_5__min_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 0,
+      "p99": 255,
+      "max": 1035,
+      "sd": 55.7771577982857
+    },
+    {
+      "name": "tir_3_5_to__pct_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 0,
+      "p99": 0.25,
+      "max": 1,
+      "sd": 0.0536718498917874
+    },
+    {
+      "name": "tir_3_5_to_7_8__min_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 480,
+      "p99": 1080,
+      "max": 1155,
+      "sd": 323.073059385578
+    },
+    {
+      "name": "x_3_5_7_8_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 0.458333333333333,
+      "p99": 1,
+      "max": 1,
+      "sd": 0.305315920605885
+    },
+    {
+      "name": "tir_below_7_8__min_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 555,
+      "p99": 1080,
+      "max": 1185,
+      "sd": 337.411982194685
+    },
+    {
+      "name": "tir_7_8_to__pct_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 0.527777777777778,
+      "p99": 1,
+      "max": 1,
+      "sd": 0.312909417875925
+    },
+    {
+      "name": "tir_7_8_to_10__min_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 225,
+      "p99": 675,
+      "max": 960,
+      "sd": 162.474438439763
+    },
+    {
+      "name": "x_7_8_10_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 0.208333333333333,
+      "p99": 0.638888888888889,
+      "max": 0.92,
+      "sd": 0.152309450828081
+    },
+    {
+      "name": "tir_3_5_to_6_7__min_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 270,
+      "p99": 1020,
+      "max": 1110,
+      "sd": 284.204841411792
+    },
+    {
+      "name": "x_3_5_6_7_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 0.258620689655172,
+      "p99": 0.958333333333333,
+      "max": 1,
+      "sd": 0.268987507547137
+    },
+    {
+      "name": "tir_below_6_7__min_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 15,
+      "median": 780,
+      "p99": 1080,
+      "max": 1185,
+      "sd": 303.454158253461
+    },
+    {
+      "name": "tir_6_7_to__pct_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0.0140217391304348,
+      "median": 0.722222222222222,
+      "p99": 1,
+      "max": 1,
+      "sd": 0.280304437466499
+    },
+    {
+      "name": "tir_6_7_to_10__min_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 405,
+      "p99": 915,
+      "max": 1080,
+      "sd": 217.608843353079
+    },
+    {
+      "name": "x_6_7_10_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 0.375,
+      "p99": 0.86078947368421,
+      "max": 1,
+      "sd": 0.20424483705605
+    },
+    {
+      "name": "tir_3_9_to_5_6__min_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 90,
+      "p99": 795,
+      "max": 1080,
+      "sd": 187.35305061205
+    },
+    {
+      "name": "x_3_9_5_6_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 0.0833333333333333,
+      "p99": 0.75,
+      "max": 1,
+      "sd": 0.177195435586808
+    },
+    {
+      "name": "tir_below_5_6__min_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 90,
+      "p99": 885,
+      "max": 1080,
+      "sd": 217.997869880705
+    },
+    {
+      "name": "tir_5_6_to__pct_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 0.0869565217391304,
+      "p99": 0.833333333333333,
+      "max": 1,
+      "sd": 0.206756668777376
+    },
+    {
+      "name": "tir_5_6_to_7_8__min_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 300,
+      "p99": 885,
+      "max": 1050,
+      "sd": 225.417776716832
+    },
+    {
+      "name": "x_5_6_7_8_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 0.291666666666667,
+      "p99": 0.833333333333333,
+      "max": 0.972222222222222,
+      "sd": 0.212993592239897
+    },
+    {
+      "name": "tir_5_6_to_10__min_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 600,
+      "p99": 1050,
+      "max": 1080,
+      "sd": 264.250542567265
+    },
+    {
+      "name": "x_5_6_10_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 0.555555555555556,
+      "p99": 0.986111111111111,
+      "max": 1,
+      "sd": 0.248502909921857
+    },
+    {
+      "name": "tir_3_9_to_7_8__min_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 465,
+      "p99": 1080,
+      "max": 1080,
+      "sd": 317.646818549266
+    },
+    {
+      "name": "x_3_9_7_8_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 0.444444444444444,
+      "p99": 1,
+      "max": 1,
+      "sd": 0.300093153577351
+    },
+    {
+      "name": "tir_3_9_to_8_3__min_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 555,
+      "p99": 1080,
+      "max": 1080,
+      "sd": 323.283703242438
+    },
+    {
+      "name": "x_3_9_8_3_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 0.52112676056338,
+      "p99": 1,
+      "max": 1,
+      "sd": 0.305172100655966
+    },
+    {
+      "name": "tir_below_8_3__min_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 465,
+      "p99": 1080,
+      "max": 1185,
+      "sd": 340.715973461758
+    },
+    {
+      "name": "tir_8_3_to__pct_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 0.444444444444444,
+      "p99": 1,
+      "max": 1,
+      "sd": 0.316120525315535
+    },
+    {
+      "name": "tir_8_3_to_10__min_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 165,
+      "p99": 555,
+      "max": 930,
+      "sd": 133.914853714211
+    },
+    {
+      "name": "x_8_3_10_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 0.152777777777778,
+      "p99": 0.514961038961039,
+      "max": 0.88,
+      "sd": 0.125333192753972
+    },
+    {
+      "name": "tir_3_9_to_8_9__min_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 645,
+      "p99": 1080,
+      "max": 1080,
+      "sd": 321.798592382365
+    },
+    {
+      "name": "x_3_9_8_9_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 0.611111111111111,
+      "p99": 1,
+      "max": 1,
+      "sd": 0.303608464639959
+    },
+    {
+      "name": "tir_below_8_9__min_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 360,
+      "p99": 1080,
+      "max": 1185,
+      "sd": 336.814715719839
+    },
+    {
+      "name": "tir_8_9_to__pct_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 0.347222222222222,
+      "p99": 1,
+      "max": 1,
+      "sd": 0.312715185247943
+    },
+    {
+      "name": "tir_8_9_to_10__min_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 90,
+      "p99": 405,
+      "max": 810,
+      "sd": 93.6812583308959
+    },
+    {
+      "name": "x_8_9_10_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 0.0833333333333333,
+      "p99": 0.375,
+      "max": 0.82,
+      "sd": 0.0875693804730643
+    },
+    {
+      "name": "tir_3_9_to_9_4__min_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 720,
+      "p99": 1080,
+      "max": 1080,
+      "sd": 315.473111469023
+    },
+    {
+      "name": "x_3_9_9_4_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 0.680555555555556,
+      "p99": 1,
+      "max": 1,
+      "sd": 0.297378909304362
+    },
+    {
+      "name": "tir_below_9_4__min_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 300,
+      "p99": 1080,
+      "max": 1185,
+      "sd": 328.347813911795
+    },
+    {
+      "name": "tir_9_4_to__pct_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 0.277777777777778,
+      "p99": 1,
+      "max": 1,
+      "sd": 0.305043813428455
+    },
+    {
+      "name": "tir_9_4_to_10__min_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 45,
+      "p99": 240,
+      "max": 465,
+      "sd": 56.3722789891787
+    },
+    {
+      "name": "x_9_4_10_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 0.0416666666666667,
+      "p99": 0.234583333333332,
+      "max": 0.48,
+      "sd": 0.0527135688690838
+    },
+    {
+      "name": "tir_3_9_to_10_6__min_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 855,
+      "p99": 1080,
+      "max": 1095,
+      "sd": 290.470085350711
+    },
+    {
+      "name": "x_3_9_10_6_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 0.805555555555556,
+      "p99": 1,
+      "max": 1,
+      "sd": 0.272808619904956
+    },
+    {
+      "name": "tir_below_10_6__min_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 165,
+      "p99": 1080,
+      "max": 1080,
+      "sd": 298.080143331285
+    },
+    {
+      "name": "tir_10_6_to__pct_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 0.152777777777778,
+      "p99": 1,
+      "max": 1,
+      "sd": 0.27723709206773
+    },
+    {
+      "name": "tir_10_6_to_13_9__min_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 120,
+      "p99": 705,
+      "max": 1080,
+      "sd": 184.754031326869
+    },
+    {
+      "name": "x_10_6_13_9_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 0.111111111111111,
+      "p99": 0.652777777777778,
+      "max": 1,
+      "sd": 0.171800794579175
+    },
+    {
+      "name": "tir_3_9_to_11_1__min_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 885,
+      "p99": 1080,
+      "max": 1125,
+      "sd": 276.777787593087
+    },
+    {
+      "name": "x_3_9_11_1_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 0.847222222222222,
+      "p99": 1,
+      "max": 1,
+      "sd": 0.259387524493622
+    },
+    {
+      "name": "tir_below_11_1__min_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 120,
+      "p99": 1080,
+      "max": 1080,
+      "sd": 282.091174960923
+    },
+    {
+      "name": "tir_11_1_to__pct_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 0.111111111111111,
+      "p99": 1,
+      "max": 1,
+      "sd": 0.262438204552187
+    },
+    {
+      "name": "tir_11_1_to_13_9__min_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 90,
+      "p99": 615,
+      "max": 960,
+      "sd": 158.931423382959
+    },
+    {
+      "name": "x_11_1_13_9_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 0.0833333333333333,
+      "p99": 0.583333333333333,
+      "max": 0.888888888888889,
+      "sd": 0.147814736161693
+    },
+    {
+      "name": "tir_below_3_3__min_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 0,
+      "p99": 210,
+      "max": 1035,
+      "sd": 46.306446339658
+    },
+    {
+      "name": "tir_3_3_to__pct_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 0,
+      "p99": 0.207896825396825,
+      "max": 1,
+      "sd": 0.0446762354095307
+    },
+    {
+      "name": "tir_3_3_to_11_1__min_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 915,
+      "p99": 1080,
+      "max": 1170,
+      "sd": 278.155354977718
+    },
+    {
+      "name": "x_3_3_11_1_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 0.875,
+      "p99": 1,
+      "max": 1,
+      "sd": 0.260896820955931
+    },
+    {
+      "name": "tir_11_1_to_16_7__min_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 105,
+      "p99": 885,
+      "max": 1080,
+      "sd": 233.680955900296
+    },
+    {
+      "name": "x_11_1_16_7_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 0.111111111111111,
+      "p99": 0.819444444444444,
+      "max": 1,
+      "sd": 0.217097042259821
+    },
+    {
+      "name": "tir_3_9_to_13_9__min_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 195,
+      "median": 1035,
+      "p99": 1080,
+      "max": 1125,
+      "sd": 195.388809554264
+    },
+    {
+      "name": "x_3_9_13_9_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0.180555555555556,
+      "median": 0.972222222222222,
+      "p99": 1,
+      "max": 1,
+      "sd": 0.179053134257266
+    },
+    {
+      "name": "tir_3_9_to_5__min_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 30,
+      "p99": 555,
+      "max": 1020,
+      "sd": 123.372731835577
+    },
+    {
+      "name": "x_3_9_5_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 0.0277777777777778,
+      "p99": 0.527777777777778,
+      "max": 0.944444444444444,
+      "sd": 0.116507273757136
+    },
+    {
+      "name": "tir_below_5__min_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 345,
+      "median": 1035,
+      "p99": 1080,
+      "max": 1185,
+      "sd": 174.62938863135
+    },
+    {
+      "name": "tir_5_to__pct_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0.347222222222222,
+      "median": 0.972222222222222,
+      "p99": 1,
+      "max": 1,
+      "sd": 0.155501746794385
+    },
+    {
+      "name": "tir_5_to_10__min_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 675,
+      "p99": 1080,
+      "max": 1080,
+      "sd": 280.845173953358
+    },
+    {
+      "name": "x_5_10_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 0.638888888888889,
+      "p99": 1,
+      "max": 1,
+      "sd": 0.264194559110919
+    },
+    {
+      "name": "tir_3_9_to_6__min_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 150,
+      "p99": 900,
+      "max": 1080,
+      "sd": 228.815579782281
+    },
+    {
+      "name": "x_3_9_6_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 0.138888888888889,
+      "p99": 0.849970978441126,
+      "max": 1,
+      "sd": 0.216557171756667
+    },
+    {
+      "name": "tir_below_6__min_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 90,
+      "median": 900,
+      "p99": 1080,
+      "max": 1185,
+      "sd": 262.52308950556
+    },
+    {
+      "name": "tir_6_to__pct_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0.0833333333333333,
+      "median": 0.847222222222222,
+      "p99": 1,
+      "max": 1,
+      "sd": 0.241006808112492
+    },
+    {
+      "name": "tir_6_to_10__min_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 510,
+      "p99": 1005,
+      "max": 1080,
+      "sd": 247.283506610352
+    },
+    {
+      "name": "x_6_10_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 0.486111111111111,
+      "p99": 0.944444444444444,
+      "max": 1,
+      "sd": 0.232344868138558
+    },
+    {
+      "name": "tir_3_9_to_7__min_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 315,
+      "p99": 1035,
+      "max": 1080,
+      "sd": 294.334464846672
+    },
+    {
+      "name": "x_3_9_7_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 0.305555555555556,
+      "p99": 0.972222222222222,
+      "max": 1,
+      "sd": 0.27832036206283
+    },
+    {
+      "name": "tir_below_7__min_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 705,
+      "p99": 1080,
+      "max": 1185,
+      "sd": 318.660432093454
+    },
+    {
+      "name": "tir_7_to__pct_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 0.666666666666667,
+      "p99": 1,
+      "max": 1,
+      "sd": 0.294846696680532
+    },
+    {
+      "name": "tir_7_to_10__min_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 345,
+      "p99": 851.699999999996,
+      "max": 1080,
+      "sd": 202.952417536612
+    },
+    {
+      "name": "x_7_10_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 0.319444444444444,
+      "p99": 0.799362318840579,
+      "max": 1,
+      "sd": 0.190391787436215
+    },
+    {
+      "name": "tir_3_9_to_8__min_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 510,
+      "p99": 1080,
+      "max": 1080,
+      "sd": 320.853114531909
+    },
+    {
+      "name": "x_3_9_8_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 0.472222222222222,
+      "p99": 1,
+      "max": 1,
+      "sd": 0.303054338314448
+    },
+    {
+      "name": "tir_below_8__min_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 555,
+      "p99": 1080,
+      "max": 1170,
+      "sd": 333.433772315509
+    },
+    {
+      "name": "tir_8_to__pct_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 0.527777777777778,
+      "p99": 1,
+      "max": 1,
+      "sd": 0.315316367937873
+    },
+    {
+      "name": "tir_8_to_12__min_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 345,
+      "p99": 915,
+      "max": 1080,
+      "sd": 229.9098209085
+    },
+    {
+      "name": "x_8_12_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 0.319444444444444,
+      "p99": 0.847222222222222,
+      "max": 1,
+      "sd": 0.2139873713234
+    },
+    {
+      "name": "tir_below_12__min_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 45,
+      "p99": 1035,
+      "max": 1080,
+      "sd": 250.575438041328
+    },
+    {
+      "name": "tir_12_to__pct_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 0.0416666666666667,
+      "p99": 0.969166666666663,
+      "max": 1,
+      "sd": 0.23322365102773
+    },
+    {
+      "name": "tir_12_to_16_7__min_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 45,
+      "p99": 780,
+      "max": 1080,
+      "sd": 194.975612919851
+    },
+    {
+      "name": "x_12_16_7_day",
+      "group": "day_CGM",
+      "min": 0,
+      "p01": 0,
+      "median": 0.0416666666666667,
+      "p99": 0.722222222222222,
+      "max": 1,
+      "sd": 0.181166200770444
+    },
+    {
+      "name": "n_readings",
+      "group": "quality",
+      "min": 68,
+      "p01": 76,
+      "median": 96,
+      "p99": 96,
+      "max": 103,
+      "sd": 3.77199933383755
+    },
+    {
+      "name": "gender",
+      "group": "static",
+      "min": 0,
+      "p01": 0,
+      "median": 1,
+      "p99": 1,
+      "max": 1,
+      "sd": 0.498302018295528
+    },
+    {
+      "name": "has_history",
+      "group": "history",
+      "min": 0,
+      "p01": 0,
+      "median": 1,
+      "p99": 1,
+      "max": 1,
+      "sd": 0.232012082904645
+    },
+    {
+      "name": "hist_n_days",
+      "group": "history",
+      "min": 0,
+      "p01": 0,
+      "median": 9,
+      "p99": 346.78,
+      "max": 420,
+      "sd": 62.5700816274384
+    },
+    {
+      "name": "lag1_night_tbr",
+      "group": "history",
+      "min": 0,
+      "p01": 0,
+      "median": 0,
+      "p99": 330,
+      "max": 360,
+      "sd": 63.1601662485677
+    },
+    {
+      "name": "lag1_night_hypo",
+      "group": "history",
+      "min": 0,
+      "p01": 0,
+      "median": 0,
+      "p99": 1,
+      "max": 1,
+      "sd": 0.373008532805321
+    },
+    {
+      "name": "lag1_day_lbgi",
+      "group": "history",
+      "min": 0,
+      "p01": 0,
+      "median": 0.758534253073635,
+      "p99": 13.0499390733808,
+      "max": 31.7027787105144,
+      "sd": 2.81640026163335
+    },
+    {
+      "name": "roll3_mean_night_tbr",
+      "group": "history",
+      "min": 0,
+      "p01": 0,
+      "median": 0,
+      "p99": 280,
+      "max": 360,
+      "sd": 53.2778242052005
+    },
+    {
+      "name": "roll3_max_night_tbr",
+      "group": "history",
+      "min": 0,
+      "p01": 0,
+      "median": 0,
+      "p99": 360,
+      "max": 360,
+      "sd": 86.6045370154596
+    },
+    {
+      "name": "roll3_sum_night_hypo",
+      "group": "history",
+      "min": 0,
+      "p01": 0,
+      "median": 0,
+      "p99": 3,
+      "max": 3,
+      "sd": 0.820909011266847
+    },
+    {
+      "name": "roll3_mean_day_lbgi",
+      "group": "history",
+      "min": 0,
+      "p01": 0,
+      "median": 1.07760860839665,
+      "p99": 19.7582770737174,
+      "max": 24.8870590915404,
+      "sd": 4.01424711250425
+    },
+    {
+      "name": "roll7_mean_night_tbr",
+      "group": "history",
+      "min": 0,
+      "p01": 0,
+      "median": 0,
+      "p99": 252.857142857143,
+      "max": 360,
+      "sd": 49.2706169183042
+    },
+    {
+      "name": "roll7_max_night_tbr",
+      "group": "history",
+      "min": 0,
+      "p01": 0,
+      "median": 0,
+      "p99": 360,
+      "max": 360,
+      "sd": 101.692394611774
+    },
+    {
+      "name": "roll7_sum_night_hypo",
+      "group": "history",
+      "min": 0,
+      "p01": 0,
+      "median": 0,
+      "p99": 7,
+      "max": 7,
+      "sd": 1.50534670907254
+    },
+    {
+      "name": "roll7_mean_day_lbgi",
+      "group": "history",
+      "min": 0,
+      "p01": 0,
+      "median": 1.10534010445755,
+      "p99": 14.797428128212,
+      "max": 24.8870590915404,
+      "sd": 3.14303442657488
+    }
+  ],
+  "featureNames": ["valid_data_ratio_day", "mean_glucose_day", "median_day", "ehba1c_day", "ehba1c_mmol_mol_day", "cv_day", "sd_day", "mage_day", "modd_day", "lage_day", "bgri_day", "lbgi_day", "hbgi_day", "min_day", "max_day", "jindex_day", "adrr_day", "mvalue_day", "gmi_mmol_mol_day", "gmi_day", "iqr_day", "percentile10_day", "percentile25_day", "percentile75_day", "percentile90_day", "gri_day", "tir_below_2_8__min_day", "tir_2_8_to__pct_day", "tir_below_3__min_day", "tir_3_to__pct_day", "tir_3_to_3_9__min_day", "x_3_3_9_day", "tir_below_3_9__min_day", "tir_3_9_to__pct_day", "tir_3_9_to_10__min_day", "x_3_9_10_day", "tir_below_10__min_day", "tir_10_to__pct_day", "tir_10_to_13_9__min_day", "x_10_13_9_day", "tir_below_13_9__min_day", "tir_13_9_to__pct_day", "tir_10_to_16_7__min_day", "x_10_16_7_day", "tir_13_9_to_16_7__min_day", "x_13_9_16_7_day", "tir_below_16_7__min_day", "tir_16_7_to__pct_day", "tir_3_to_3_5__min_day", "x_3_3_5_day", "tir_below_3_5__min_day", "tir_3_5_to__pct_day", "tir_3_5_to_7_8__min_day", "x_3_5_7_8_day", "tir_below_7_8__min_day", "tir_7_8_to__pct_day", "tir_7_8_to_10__min_day", "x_7_8_10_day", "tir_3_5_to_6_7__min_day", "x_3_5_6_7_day", "tir_below_6_7__min_day", "tir_6_7_to__pct_day", "tir_6_7_to_10__min_day", "x_6_7_10_day", "tir_3_9_to_5_6__min_day", "x_3_9_5_6_day", "tir_below_5_6__min_day", "tir_5_6_to__pct_day", "tir_5_6_to_7_8__min_day", "x_5_6_7_8_day", "tir_5_6_to_10__min_day", "x_5_6_10_day", "tir_3_9_to_7_8__min_day", "x_3_9_7_8_day", "tir_3_9_to_8_3__min_day", "x_3_9_8_3_day", "tir_below_8_3__min_day", "tir_8_3_to__pct_day", "tir_8_3_to_10__min_day", "x_8_3_10_day", "tir_3_9_to_8_9__min_day", "x_3_9_8_9_day", "tir_below_8_9__min_day", "tir_8_9_to__pct_day", "tir_8_9_to_10__min_day", "x_8_9_10_day", "tir_3_9_to_9_4__min_day", "x_3_9_9_4_day", "tir_below_9_4__min_day", "tir_9_4_to__pct_day", "tir_9_4_to_10__min_day", "x_9_4_10_day", "tir_3_9_to_10_6__min_day", "x_3_9_10_6_day", "tir_below_10_6__min_day", "tir_10_6_to__pct_day", "tir_10_6_to_13_9__min_day", "x_10_6_13_9_day", "tir_3_9_to_11_1__min_day", "x_3_9_11_1_day", "tir_below_11_1__min_day", "tir_11_1_to__pct_day", "tir_11_1_to_13_9__min_day", "x_11_1_13_9_day", "tir_below_3_3__min_day", "tir_3_3_to__pct_day", "tir_3_3_to_11_1__min_day", "x_3_3_11_1_day", "tir_11_1_to_16_7__min_day", "x_11_1_16_7_day", "tir_3_9_to_13_9__min_day", "x_3_9_13_9_day", "tir_3_9_to_5__min_day", "x_3_9_5_day", "tir_below_5__min_day", "tir_5_to__pct_day", "tir_5_to_10__min_day", "x_5_10_day", "tir_3_9_to_6__min_day", "x_3_9_6_day", "tir_below_6__min_day", "tir_6_to__pct_day", "tir_6_to_10__min_day", "x_6_10_day", "tir_3_9_to_7__min_day", "x_3_9_7_day", "tir_below_7__min_day", "tir_7_to__pct_day", "tir_7_to_10__min_day", "x_7_10_day", "tir_3_9_to_8__min_day", "x_3_9_8_day", "tir_below_8__min_day", "tir_8_to__pct_day", "tir_8_to_12__min_day", "x_8_12_day", "tir_below_12__min_day", "tir_12_to__pct_day", "tir_12_to_16_7__min_day", "x_12_16_7_day", "n_readings", "gender", "has_history", "hist_n_days", "lag1_night_tbr", "lag1_night_hypo", "lag1_day_lbgi", "roll3_mean_night_tbr", "roll3_max_night_tbr", "roll3_sum_night_hypo", "roll3_mean_day_lbgi", "roll7_mean_night_tbr", "roll7_max_night_tbr", "roll7_sum_night_hypo", "roll7_mean_day_lbgi"],
+  "historyFeatures": ["has_history", "hist_n_days", "lag1_night_tbr", "lag1_night_hypo", "lag1_day_lbgi", "roll3_mean_night_tbr", "roll3_max_night_tbr", "roll3_sum_night_hypo", "roll3_mean_day_lbgi", "roll7_mean_night_tbr", "roll7_max_night_tbr", "roll7_sum_night_hypo", "roll7_mean_day_lbgi"],
+  "historyFallback": {
+    "lag1_night_tbr": 0,
+    "lag1_night_hypo": 0,
+    "lag1_day_lbgi": 0.9606552301284,
+    "roll3_mean_night_tbr": 21.25,
+    "roll3_max_night_tbr": 60,
+    "roll3_sum_night_hypo": 1,
+    "roll3_mean_day_lbgi": 14.7369208417979,
+    "roll7_mean_night_tbr": 4.64285714285714,
+    "roll7_max_night_tbr": 60,
+    "roll7_sum_night_hypo": 1,
+    "roll7_mean_day_lbgi": 9.14249228647008
+  },
+  "genderLevels": ["女性", "男性"],
+  "thresholds": {
+    "M0": null,
+    "M1": 0.471608208365694,
+    "M2": 0.24769039452076
+  },
+  "m1": {
+    "intercept": 0.590162891278155,
+    "betas": {
+      "valid_data_ratio_day": 0,
+      "mean_glucose_day": 0,
+      "median_day": 0,
+      "ehba1c_day": 0,
+      "ehba1c_mmol_mol_day": 0,
+      "cv_day": 0.0419996909522886,
+      "sd_day": 0,
+      "mage_day": 0,
+      "modd_day": 0,
+      "lage_day": 0,
+      "bgri_day": 0,
+      "lbgi_day": 0.0238253594217115,
+      "hbgi_day": 0,
+      "min_day": -0.0723689372299054,
+      "max_day": 0,
+      "jindex_day": 0,
+      "adrr_day": 0,
+      "mvalue_day": 0,
+      "gmi_mmol_mol_day": 0,
+      "gmi_day": 0,
+      "iqr_day": 0,
+      "percentile10_day": -0.0545239751806589,
+      "percentile25_day": 0,
+      "percentile75_day": 0,
+      "percentile90_day": 0,
+      "gri_day": 0,
+      "tir_below_2_8__min_day": 0,
+      "tir_2_8_to__pct_day": 0,
+      "tir_below_3__min_day": 0,
+      "tir_3_to__pct_day": 0,
+      "tir_3_to_3_9__min_day": 0.000241471306449432,
+      "x_3_3_9_day": 0.209336076125302,
+      "tir_below_3_9__min_day": 0,
+      "tir_3_9_to__pct_day": 0,
+      "tir_3_9_to_10__min_day": 0,
+      "x_3_9_10_day": 0,
+      "tir_below_10__min_day": 0,
+      "tir_10_to__pct_day": 0,
+      "tir_10_to_13_9__min_day": 0,
+      "x_10_13_9_day": 0,
+      "tir_below_13_9__min_day": 0,
+      "tir_13_9_to__pct_day": 0,
+      "tir_10_to_16_7__min_day": 0,
+      "x_10_16_7_day": 0,
+      "tir_13_9_to_16_7__min_day": 0,
+      "x_13_9_16_7_day": 0,
+      "tir_below_16_7__min_day": 0,
+      "tir_16_7_to__pct_day": 0,
+      "tir_3_to_3_5__min_day": 0,
+      "x_3_3_5_day": 0,
+      "tir_below_3_5__min_day": 0,
+      "tir_3_5_to__pct_day": 0,
+      "tir_3_5_to_7_8__min_day": 0,
+      "x_3_5_7_8_day": 0,
+      "tir_below_7_8__min_day": 0,
+      "tir_7_8_to__pct_day": 0,
+      "tir_7_8_to_10__min_day": 0,
+      "x_7_8_10_day": 0,
+      "tir_3_5_to_6_7__min_day": 0,
+      "x_3_5_6_7_day": 0,
+      "tir_below_6_7__min_day": 0,
+      "tir_6_7_to__pct_day": 0,
+      "tir_6_7_to_10__min_day": 0,
+      "x_6_7_10_day": 0,
+      "tir_3_9_to_5_6__min_day": 0,
+      "x_3_9_5_6_day": 0,
+      "tir_below_5_6__min_day": 0.000133236014174315,
+      "tir_5_6_to__pct_day": 0.135189898110952,
+      "tir_5_6_to_7_8__min_day": 0,
+      "x_5_6_7_8_day": 0,
+      "tir_5_6_to_10__min_day": 0,
+      "x_5_6_10_day": 0,
+      "tir_3_9_to_7_8__min_day": 0,
+      "x_3_9_7_8_day": 0,
+      "tir_3_9_to_8_3__min_day": 0,
+      "x_3_9_8_3_day": 0,
+      "tir_below_8_3__min_day": 0,
+      "tir_8_3_to__pct_day": 0,
+      "tir_8_3_to_10__min_day": 0,
+      "x_8_3_10_day": 0,
+      "tir_3_9_to_8_9__min_day": 0,
+      "x_3_9_8_9_day": 0,
+      "tir_below_8_9__min_day": 0,
+      "tir_8_9_to__pct_day": 0,
+      "tir_8_9_to_10__min_day": 0,
+      "x_8_9_10_day": 0,
+      "tir_3_9_to_9_4__min_day": 0,
+      "x_3_9_9_4_day": 0,
+      "tir_below_9_4__min_day": 0,
+      "tir_9_4_to__pct_day": 0,
+      "tir_9_4_to_10__min_day": 0,
+      "x_9_4_10_day": 0,
+      "tir_3_9_to_10_6__min_day": 0,
+      "x_3_9_10_6_day": 0,
+      "tir_below_10_6__min_day": 0,
+      "tir_10_6_to__pct_day": 0,
+      "tir_10_6_to_13_9__min_day": 0,
+      "x_10_6_13_9_day": 0,
+      "tir_3_9_to_11_1__min_day": 0,
+      "x_3_9_11_1_day": 0,
+      "tir_below_11_1__min_day": 0,
+      "tir_11_1_to__pct_day": 0,
+      "tir_11_1_to_13_9__min_day": 0,
+      "x_11_1_13_9_day": 0,
+      "tir_below_3_3__min_day": 0,
+      "tir_3_3_to__pct_day": 0,
+      "tir_3_3_to_11_1__min_day": 0,
+      "x_3_3_11_1_day": 0,
+      "tir_11_1_to_16_7__min_day": 0,
+      "x_11_1_16_7_day": 0,
+      "tir_3_9_to_13_9__min_day": 0,
+      "x_3_9_13_9_day": 0,
+      "tir_3_9_to_5__min_day": 0,
+      "x_3_9_5_day": 0,
+      "tir_below_5__min_day": -0.000244620934623643,
+      "tir_5_to__pct_day": -0.351264088436796,
+      "tir_5_to_10__min_day": 0,
+      "x_5_10_day": 0,
+      "tir_3_9_to_6__min_day": 0,
+      "x_3_9_6_day": 0,
+      "tir_below_6__min_day": 0,
+      "tir_6_to__pct_day": 0,
+      "tir_6_to_10__min_day": 0,
+      "x_6_10_day": 0,
+      "tir_3_9_to_7__min_day": 0,
+      "x_3_9_7_day": 0,
+      "tir_below_7__min_day": 0,
+      "tir_7_to__pct_day": 0,
+      "tir_7_to_10__min_day": 0,
+      "x_7_10_day": 0,
+      "tir_3_9_to_8__min_day": 0,
+      "x_3_9_8_day": 0,
+      "tir_below_8__min_day": 0,
+      "tir_8_to__pct_day": 0,
+      "tir_8_to_12__min_day": 0,
+      "x_8_12_day": 0,
+      "tir_below_12__min_day": 0,
+      "tir_12_to__pct_day": 0,
+      "tir_12_to_16_7__min_day": 0,
+      "x_12_16_7_day": 0,
+      "n_readings": 0,
+      "gender": 0,
+      "has_history": 0,
+      "hist_n_days": 0,
+      "lag1_night_tbr": 0,
+      "lag1_night_hypo": 0.160102609938608,
+      "lag1_day_lbgi": 0.0180322040564552,
+      "roll3_mean_night_tbr": 0.000186192857502194,
+      "roll3_max_night_tbr": 0.000334077048017076,
+      "roll3_sum_night_hypo": 0.090916394142913,
+      "roll3_mean_day_lbgi": 0.00397645521818053,
+      "roll7_mean_night_tbr": 0.000137389197040349,
+      "roll7_max_night_tbr": 0.000392037827877272,
+      "roll7_sum_night_hypo": 0.0386653073564916,
+      "roll7_mean_day_lbgi": 0.00191987691680027
+    },
+    "alpha": 0.25,
+    "lambda": 0.392589330676135
+  },
+  "m2FeatureNames": ["valid_data_ratio_day", "mean_glucose_day", "median_day", "ehba1c_day", "ehba1c_mmol_mol_day", "cv_day", "sd_day", "mage_day", "modd_day", "lage_day", "bgri_day", "lbgi_day", "hbgi_day", "min_day", "max_day", "jindex_day", "adrr_day", "mvalue_day", "gmi_mmol_mol_day", "gmi_day", "iqr_day", "percentile10_day", "percentile25_day", "percentile75_day", "percentile90_day", "gri_day", "tir_below_2_8__min_day", "tir_2_8_to__pct_day", "tir_below_3__min_day", "tir_3_to__pct_day", "tir_3_to_3_9__min_day", "x_3_3_9_day", "tir_below_3_9__min_day", "tir_3_9_to__pct_day", "tir_3_9_to_10__min_day", "x_3_9_10_day", "tir_below_10__min_day", "tir_10_to__pct_day", "tir_10_to_13_9__min_day", "x_10_13_9_day", "tir_below_13_9__min_day", "tir_13_9_to__pct_day", "tir_10_to_16_7__min_day", "x_10_16_7_day", "tir_13_9_to_16_7__min_day", "x_13_9_16_7_day", "tir_below_16_7__min_day", "tir_16_7_to__pct_day", "tir_3_to_3_5__min_day", "x_3_3_5_day", "tir_below_3_5__min_day", "tir_3_5_to__pct_day", "tir_3_5_to_7_8__min_day", "x_3_5_7_8_day", "tir_below_7_8__min_day", "tir_7_8_to__pct_day", "tir_7_8_to_10__min_day", "x_7_8_10_day", "tir_3_5_to_6_7__min_day", "x_3_5_6_7_day", "tir_below_6_7__min_day", "tir_6_7_to__pct_day", "tir_6_7_to_10__min_day", "x_6_7_10_day", "tir_3_9_to_5_6__min_day", "x_3_9_5_6_day", "tir_below_5_6__min_day", "tir_5_6_to__pct_day", "tir_5_6_to_7_8__min_day", "x_5_6_7_8_day", "tir_5_6_to_10__min_day", "x_5_6_10_day", "tir_3_9_to_7_8__min_day", "x_3_9_7_8_day", "tir_3_9_to_8_3__min_day", "x_3_9_8_3_day", "tir_below_8_3__min_day", "tir_8_3_to__pct_day", "tir_8_3_to_10__min_day", "x_8_3_10_day", "tir_3_9_to_8_9__min_day", "x_3_9_8_9_day", "tir_below_8_9__min_day", "tir_8_9_to__pct_day", "tir_8_9_to_10__min_day", "x_8_9_10_day", "tir_3_9_to_9_4__min_day", "x_3_9_9_4_day", "tir_below_9_4__min_day", "tir_9_4_to__pct_day", "tir_9_4_to_10__min_day", "x_9_4_10_day", "tir_3_9_to_10_6__min_day", "x_3_9_10_6_day", "tir_below_10_6__min_day", "tir_10_6_to__pct_day", "tir_10_6_to_13_9__min_day", "x_10_6_13_9_day", "tir_3_9_to_11_1__min_day", "x_3_9_11_1_day", "tir_below_11_1__min_day", "tir_11_1_to__pct_day", "tir_11_1_to_13_9__min_day", "x_11_1_13_9_day", "tir_below_3_3__min_day", "tir_3_3_to__pct_day", "tir_3_3_to_11_1__min_day", "x_3_3_11_1_day", "tir_11_1_to_16_7__min_day", "x_11_1_16_7_day", "tir_3_9_to_13_9__min_day", "x_3_9_13_9_day", "tir_3_9_to_5__min_day", "x_3_9_5_day", "tir_below_5__min_day", "tir_5_to__pct_day", "tir_5_to_10__min_day", "x_5_10_day", "tir_3_9_to_6__min_day", "x_3_9_6_day", "tir_below_6__min_day", "tir_6_to__pct_day", "tir_6_to_10__min_day", "x_6_10_day", "tir_3_9_to_7__min_day", "x_3_9_7_day", "tir_below_7__min_day", "tir_7_to__pct_day", "tir_7_to_10__min_day", "x_7_10_day", "tir_3_9_to_8__min_day", "x_3_9_8_day", "tir_below_8__min_day", "tir_8_to__pct_day", "tir_8_to_12__min_day", "x_8_12_day", "tir_below_12__min_day", "tir_12_to__pct_day", "tir_12_to_16_7__min_day", "x_12_16_7_day", "n_readings", "gender", "has_history", "hist_n_days", "lag1_night_tbr", "lag1_night_hypo", "lag1_day_lbgi", "roll3_mean_night_tbr", "roll3_max_night_tbr", "roll3_sum_night_hypo", "roll3_mean_day_lbgi", "roll7_mean_night_tbr", "roll7_max_night_tbr", "roll7_sum_night_hypo", "roll7_mean_day_lbgi"],
+  "curves": [
+    {
+      "model": "M1",
+      "threshold": 0.05,
+      "sensitivity": 1,
+      "specificity": 0
+    },
+    {
+      "model": "M1",
+      "threshold": 0.055,
+      "sensitivity": 1,
+      "specificity": 0
+    },
+    {
+      "model": "M1",
+      "threshold": 0.06,
+      "sensitivity": 1,
+      "specificity": 0
+    },
+    {
+      "model": "M1",
+      "threshold": 0.065,
+      "sensitivity": 1,
+      "specificity": 0
+    },
+    {
+      "model": "M1",
+      "threshold": 0.07,
+      "sensitivity": 1,
+      "specificity": 0
+    },
+    {
+      "model": "M1",
+      "threshold": 0.075,
+      "sensitivity": 1,
+      "specificity": 0
+    },
+    {
+      "model": "M1",
+      "threshold": 0.08,
+      "sensitivity": 1,
+      "specificity": 0
+    },
+    {
+      "model": "M1",
+      "threshold": 0.085,
+      "sensitivity": 1,
+      "specificity": 0
+    },
+    {
+      "model": "M1",
+      "threshold": 0.09,
+      "sensitivity": 1,
+      "specificity": 0
+    },
+    {
+      "model": "M1",
+      "threshold": 0.095,
+      "sensitivity": 1,
+      "specificity": 0
+    },
+    {
+      "model": "M1",
+      "threshold": 0.1,
+      "sensitivity": 1,
+      "specificity": 0
+    },
+    {
+      "model": "M1",
+      "threshold": 0.105,
+      "sensitivity": 1,
+      "specificity": 0.000803212851405623
+    },
+    {
+      "model": "M1",
+      "threshold": 0.11,
+      "sensitivity": 1,
+      "specificity": 0.000803212851405623
+    },
+    {
+      "model": "M1",
+      "threshold": 0.115,
+      "sensitivity": 1,
+      "specificity": 0.000803212851405623
+    },
+    {
+      "model": "M1",
+      "threshold": 0.12,
+      "sensitivity": 1,
+      "specificity": 0.000803212851405623
+    },
+    {
+      "model": "M1",
+      "threshold": 0.125,
+      "sensitivity": 1,
+      "specificity": 0.000803212851405623
+    },
+    {
+      "model": "M1",
+      "threshold": 0.13,
+      "sensitivity": 1,
+      "specificity": 0.000803212851405623
+    },
+    {
+      "model": "M1",
+      "threshold": 0.135,
+      "sensitivity": 1,
+      "specificity": 0.000803212851405623
+    },
+    {
+      "model": "M1",
+      "threshold": 0.14,
+      "sensitivity": 1,
+      "specificity": 0.00160642570281125
+    },
+    {
+      "model": "M1",
+      "threshold": 0.145,
+      "sensitivity": 1,
+      "specificity": 0.00160642570281125
+    },
+    {
+      "model": "M1",
+      "threshold": 0.15,
+      "sensitivity": 1,
+      "specificity": 0.00321285140562249
+    },
+    {
+      "model": "M1",
+      "threshold": 0.155,
+      "sensitivity": 1,
+      "specificity": 0.00321285140562249
+    },
+    {
+      "model": "M1",
+      "threshold": 0.16,
+      "sensitivity": 1,
+      "specificity": 0.00321285140562249
+    },
+    {
+      "model": "M1",
+      "threshold": 0.165,
+      "sensitivity": 1,
+      "specificity": 0.00401606425702811
+    },
+    {
+      "model": "M1",
+      "threshold": 0.17,
+      "sensitivity": 1,
+      "specificity": 0.00401606425702811
+    },
+    {
+      "model": "M1",
+      "threshold": 0.175,
+      "sensitivity": 1,
+      "specificity": 0.00481927710843374
+    },
+    {
+      "model": "M1",
+      "threshold": 0.18,
+      "sensitivity": 1,
+      "specificity": 0.00562248995983936
+    },
+    {
+      "model": "M1",
+      "threshold": 0.185,
+      "sensitivity": 1,
+      "specificity": 0.00562248995983936
+    },
+    {
+      "model": "M1",
+      "threshold": 0.19,
+      "sensitivity": 1,
+      "specificity": 0.00803212851405622
+    },
+    {
+      "model": "M1",
+      "threshold": 0.195,
+      "sensitivity": 1,
+      "specificity": 0.00803212851405622
+    },
+    {
+      "model": "M1",
+      "threshold": 0.2,
+      "sensitivity": 1,
+      "specificity": 0.00883534136546185
+    },
+    {
+      "model": "M1",
+      "threshold": 0.205,
+      "sensitivity": 1,
+      "specificity": 0.00963855421686747
+    },
+    {
+      "model": "M1",
+      "threshold": 0.21,
+      "sensitivity": 1,
+      "specificity": 0.01285140562249
+    },
+    {
+      "model": "M1",
+      "threshold": 0.215,
+      "sensitivity": 1,
+      "specificity": 0.0136546184738956
+    },
+    {
+      "model": "M1",
+      "threshold": 0.22,
+      "sensitivity": 1,
+      "specificity": 0.0184738955823293
+    },
+    {
+      "model": "M1",
+      "threshold": 0.225,
+      "sensitivity": 0.994252873563218,
+      "specificity": 0.0216867469879518
+    },
+    {
+      "model": "M1",
+      "threshold": 0.23,
+      "sensitivity": 0.994252873563218,
+      "specificity": 0.0281124497991968
+    },
+    {
+      "model": "M1",
+      "threshold": 0.235,
+      "sensitivity": 0.994252873563218,
+      "specificity": 0.0329317269076305
+    },
+    {
+      "model": "M1",
+      "threshold": 0.24,
+      "sensitivity": 0.994252873563218,
+      "specificity": 0.0369477911646586
+    },
+    {
+      "model": "M1",
+      "threshold": 0.245,
+      "sensitivity": 0.994252873563218,
+      "specificity": 0.0433734939759036
+    },
+    {
+      "model": "M1",
+      "threshold": 0.25,
+      "sensitivity": 0.994252873563218,
+      "specificity": 0.048995983935743
+    },
+    {
+      "model": "M1",
+      "threshold": 0.255,
+      "sensitivity": 0.994252873563218,
+      "specificity": 0.0570281124497992
+    },
+    {
+      "model": "M1",
+      "threshold": 0.26,
+      "sensitivity": 0.994252873563218,
+      "specificity": 0.0666666666666667
+    },
+    {
+      "model": "M1",
+      "threshold": 0.265,
+      "sensitivity": 0.994252873563218,
+      "specificity": 0.0730923694779116
+    },
+    {
+      "model": "M1",
+      "threshold": 0.27,
+      "sensitivity": 0.994252873563218,
+      "specificity": 0.0859437751004016
+    },
+    {
+      "model": "M1",
+      "threshold": 0.275,
+      "sensitivity": 0.994252873563218,
+      "specificity": 0.0923694779116466
+    },
+    {
+      "model": "M1",
+      "threshold": 0.28,
+      "sensitivity": 0.988505747126437,
+      "specificity": 0.100401606425703
+    },
+    {
+      "model": "M1",
+      "threshold": 0.285,
+      "sensitivity": 0.988505747126437,
+      "specificity": 0.116465863453815
+    },
+    {
+      "model": "M1",
+      "threshold": 0.29,
+      "sensitivity": 0.988505747126437,
+      "specificity": 0.130120481927711
+    },
+    {
+      "model": "M1",
+      "threshold": 0.295,
+      "sensitivity": 0.988505747126437,
+      "specificity": 0.143775100401606
+    },
+    {
+      "model": "M1",
+      "threshold": 0.3,
+      "sensitivity": 0.988505747126437,
+      "specificity": 0.153413654618474
+    },
+    {
+      "model": "M1",
+      "threshold": 0.305,
+      "sensitivity": 0.988505747126437,
+      "specificity": 0.166265060240964
+    },
+    {
+      "model": "M1",
+      "threshold": 0.31,
+      "sensitivity": 0.988505747126437,
+      "specificity": 0.182329317269076
+    },
+    {
+      "model": "M1",
+      "threshold": 0.315,
+      "sensitivity": 0.982758620689655,
+      "specificity": 0.2
+    },
+    {
+      "model": "M1",
+      "threshold": 0.32,
+      "sensitivity": 0.982758620689655,
+      "specificity": 0.231325301204819
+    },
+    {
+      "model": "M1",
+      "threshold": 0.325,
+      "sensitivity": 0.982758620689655,
+      "specificity": 0.263453815261044
+    },
+    {
+      "model": "M1",
+      "threshold": 0.33,
+      "sensitivity": 0.96551724137931,
+      "specificity": 0.291566265060241
+    },
+    {
+      "model": "M1",
+      "threshold": 0.335,
+      "sensitivity": 0.96551724137931,
+      "specificity": 0.322088353413655
+    },
+    {
+      "model": "M1",
+      "threshold": 0.34,
+      "sensitivity": 0.959770114942529,
+      "specificity": 0.34859437751004
+    },
+    {
+      "model": "M1",
+      "threshold": 0.345,
+      "sensitivity": 0.942528735632184,
+      "specificity": 0.379116465863454
+    },
+    {
+      "model": "M1",
+      "threshold": 0.35,
+      "sensitivity": 0.931034482758621,
+      "specificity": 0.406425702811245
+    },
+    {
+      "model": "M1",
+      "threshold": 0.355,
+      "sensitivity": 0.925287356321839,
+      "specificity": 0.436947791164659
+    },
+    {
+      "model": "M1",
+      "threshold": 0.36,
+      "sensitivity": 0.908045977011494,
+      "specificity": 0.456224899598394
+    },
+    {
+      "model": "M1",
+      "threshold": 0.365,
+      "sensitivity": 0.902298850574713,
+      "specificity": 0.480321285140562
+    },
+    {
+      "model": "M1",
+      "threshold": 0.37,
+      "sensitivity": 0.896551724137931,
+      "specificity": 0.504417670682731
+    },
+    {
+      "model": "M1",
+      "threshold": 0.375,
+      "sensitivity": 0.896551724137931,
+      "specificity": 0.538955823293173
+    },
+    {
+      "model": "M1",
+      "threshold": 0.38,
+      "sensitivity": 0.879310344827586,
+      "specificity": 0.562248995983936
+    },
+    {
+      "model": "M1",
+      "threshold": 0.385,
+      "sensitivity": 0.873563218390805,
+      "specificity": 0.590361445783133
+    },
+    {
+      "model": "M1",
+      "threshold": 0.39,
+      "sensitivity": 0.867816091954023,
+      "specificity": 0.616867469879518
+    },
+    {
+      "model": "M1",
+      "threshold": 0.395,
+      "sensitivity": 0.862068965517241,
+      "specificity": 0.641767068273092
+    },
+    {
+      "model": "M1",
+      "threshold": 0.4,
+      "sensitivity": 0.862068965517241,
+      "specificity": 0.665060240963855
+    },
+    {
+      "model": "M1",
+      "threshold": 0.405,
+      "sensitivity": 0.850574712643678,
+      "specificity": 0.68433734939759
+    },
+    {
+      "model": "M1",
+      "threshold": 0.41,
+      "sensitivity": 0.844827586206897,
+      "specificity": 0.698795180722892
+    },
+    {
+      "model": "M1",
+      "threshold": 0.415,
+      "sensitivity": 0.844827586206897,
+      "specificity": 0.714056224899598
+    },
+    {
+      "model": "M1",
+      "threshold": 0.42,
+      "sensitivity": 0.839080459770115,
+      "specificity": 0.731726907630522
+    },
+    {
+      "model": "M1",
+      "threshold": 0.425,
+      "sensitivity": 0.839080459770115,
+      "specificity": 0.753413654618474
+    },
+    {
+      "model": "M1",
+      "threshold": 0.43,
+      "sensitivity": 0.839080459770115,
+      "specificity": 0.767871485943775
+    },
+    {
+      "model": "M1",
+      "threshold": 0.435,
+      "sensitivity": 0.827586206896552,
+      "specificity": 0.781526104417671
+    },
+    {
+      "model": "M1",
+      "threshold": 0.44,
+      "sensitivity": 0.82183908045977,
+      "specificity": 0.791967871485944
+    },
+    {
+      "model": "M1",
+      "threshold": 0.445,
+      "sensitivity": 0.810344827586207,
+      "specificity": 0.802409638554217
+    },
+    {
+      "model": "M1",
+      "threshold": 0.45,
+      "sensitivity": 0.804597701149425,
+      "specificity": 0.816867469879518
+    },
+    {
+      "model": "M1",
+      "threshold": 0.455,
+      "sensitivity": 0.78735632183908,
+      "specificity": 0.834538152610442
+    },
+    {
+      "model": "M1",
+      "threshold": 0.46,
+      "sensitivity": 0.758620689655172,
+      "specificity": 0.844979919678715
+    },
+    {
+      "model": "M1",
+      "threshold": 0.465,
+      "sensitivity": 0.741379310344828,
+      "specificity": 0.857028112449799
+    },
+    {
+      "model": "M1",
+      "threshold": 0.47,
+      "sensitivity": 0.741379310344828,
+      "specificity": 0.863453815261044
+    },
+    {
+      "model": "M1",
+      "threshold": 0.475,
+      "sensitivity": 0.724137931034483,
+      "specificity": 0.874698795180723
+    },
+    {
+      "model": "M1",
+      "threshold": 0.48,
+      "sensitivity": 0.706896551724138,
+      "specificity": 0.885140562248996
+    },
+    {
+      "model": "M1",
+      "threshold": 0.485,
+      "sensitivity": 0.695402298850575,
+      "specificity": 0.892369477911647
+    },
+    {
+      "model": "M1",
+      "threshold": 0.49,
+      "sensitivity": 0.695402298850575,
+      "specificity": 0.89718875502008
+    },
+    {
+      "model": "M1",
+      "threshold": 0.495,
+      "sensitivity": 0.672413793103448,
+      "specificity": 0.904417670682731
+    },
+    {
+      "model": "M1",
+      "threshold": 0.5,
+      "sensitivity": 0.655172413793103,
+      "specificity": 0.912449799196787
+    },
+    {
+      "model": "M1",
+      "threshold": 0.505,
+      "sensitivity": 0.64367816091954,
+      "specificity": 0.920481927710843
+    },
+    {
+      "model": "M1",
+      "threshold": 0.51,
+      "sensitivity": 0.632183908045977,
+      "specificity": 0.926104417670683
+    },
+    {
+      "model": "M1",
+      "threshold": 0.515,
+      "sensitivity": 0.632183908045977,
+      "specificity": 0.9285140562249
+    },
+    {
+      "model": "M1",
+      "threshold": 0.52,
+      "sensitivity": 0.626436781609195,
+      "specificity": 0.934939759036145
+    },
+    {
+      "model": "M1",
+      "threshold": 0.525,
+      "sensitivity": 0.614942528735632,
+      "specificity": 0.938152610441767
+    },
+    {
+      "model": "M1",
+      "threshold": 0.53,
+      "sensitivity": 0.603448275862069,
+      "specificity": 0.939759036144578
+    },
+    {
+      "model": "M1",
+      "threshold": 0.535,
+      "sensitivity": 0.580459770114943,
+      "specificity": 0.942971887550201
+    },
+    {
+      "model": "M1",
+      "threshold": 0.54,
+      "sensitivity": 0.563218390804598,
+      "specificity": 0.944578313253012
+    },
+    {
+      "model": "M1",
+      "threshold": 0.545,
+      "sensitivity": 0.557471264367816,
+      "specificity": 0.946987951807229
+    },
+    {
+      "model": "M1",
+      "threshold": 0.55,
+      "sensitivity": 0.545977011494253,
+      "specificity": 0.952610441767068
+    },
+    {
+      "model": "M1",
+      "threshold": 0.555,
+      "sensitivity": 0.528735632183908,
+      "specificity": 0.95421686746988
+    },
+    {
+      "model": "M1",
+      "threshold": 0.56,
+      "sensitivity": 0.528735632183908,
+      "specificity": 0.96144578313253
+    },
+    {
+      "model": "M1",
+      "threshold": 0.565,
+      "sensitivity": 0.528735632183908,
+      "specificity": 0.965461847389558
+    },
+    {
+      "model": "M1",
+      "threshold": 0.57,
+      "sensitivity": 0.505747126436782,
+      "specificity": 0.968674698795181
+    },
+    {
+      "model": "M1",
+      "threshold": 0.575,
+      "sensitivity": 0.5,
+      "specificity": 0.971887550200803
+    },
+    {
+      "model": "M1",
+      "threshold": 0.58,
+      "sensitivity": 0.482758620689655,
+      "specificity": 0.971887550200803
+    },
+    {
+      "model": "M1",
+      "threshold": 0.585,
+      "sensitivity": 0.477011494252874,
+      "specificity": 0.972690763052209
+    },
+    {
+      "model": "M1",
+      "threshold": 0.59,
+      "sensitivity": 0.459770114942529,
+      "specificity": 0.973493975903614
+    },
+    {
+      "model": "M1",
+      "threshold": 0.595,
+      "sensitivity": 0.448275862068966,
+      "specificity": 0.975100401606426
+    },
+    {
+      "model": "M1",
+      "threshold": 0.6,
+      "sensitivity": 0.436781609195402,
+      "specificity": 0.975903614457831
+    },
+    {
+      "model": "M1",
+      "threshold": 0.605,
+      "sensitivity": 0.425287356321839,
+      "specificity": 0.977510040160643
+    },
+    {
+      "model": "M1",
+      "threshold": 0.61,
+      "sensitivity": 0.425287356321839,
+      "specificity": 0.979116465863454
+    },
+    {
+      "model": "M1",
+      "threshold": 0.615,
+      "sensitivity": 0.402298850574713,
+      "specificity": 0.979116465863454
+    },
+    {
+      "model": "M1",
+      "threshold": 0.62,
+      "sensitivity": 0.402298850574713,
+      "specificity": 0.983935742971888
+    },
+    {
+      "model": "M1",
+      "threshold": 0.625,
+      "sensitivity": 0.396551724137931,
+      "specificity": 0.984738955823293
+    },
+    {
+      "model": "M1",
+      "threshold": 0.63,
+      "sensitivity": 0.396551724137931,
+      "specificity": 0.989558232931727
+    },
+    {
+      "model": "M1",
+      "threshold": 0.635,
+      "sensitivity": 0.385057471264368,
+      "specificity": 0.989558232931727
+    },
+    {
+      "model": "M1",
+      "threshold": 0.64,
+      "sensitivity": 0.385057471264368,
+      "specificity": 0.990361445783133
+    },
+    {
+      "model": "M1",
+      "threshold": 0.645,
+      "sensitivity": 0.362068965517241,
+      "specificity": 0.991164658634538
+    },
+    {
+      "model": "M1",
+      "threshold": 0.65,
+      "sensitivity": 0.344827586206897,
+      "specificity": 0.993574297188755
+    },
+    {
+      "model": "M1",
+      "threshold": 0.655,
+      "sensitivity": 0.327586206896552,
+      "specificity": 0.993574297188755
+    },
+    {
+      "model": "M1",
+      "threshold": 0.66,
+      "sensitivity": 0.304597701149425,
+      "specificity": 0.995983935742972
+    },
+    {
+      "model": "M1",
+      "threshold": 0.665,
+      "sensitivity": 0.304597701149425,
+      "specificity": 0.995983935742972
+    },
+    {
+      "model": "M1",
+      "threshold": 0.67,
+      "sensitivity": 0.298850574712644,
+      "specificity": 0.995983935742972
+    },
+    {
+      "model": "M1",
+      "threshold": 0.675,
+      "sensitivity": 0.298850574712644,
+      "specificity": 0.995983935742972
+    },
+    {
+      "model": "M1",
+      "threshold": 0.68,
+      "sensitivity": 0.281609195402299,
+      "specificity": 0.995983935742972
+    },
+    {
+      "model": "M1",
+      "threshold": 0.685,
+      "sensitivity": 0.281609195402299,
+      "specificity": 0.995983935742972
+    },
+    {
+      "model": "M1",
+      "threshold": 0.69,
+      "sensitivity": 0.275862068965517,
+      "specificity": 0.995983935742972
+    },
+    {
+      "model": "M1",
+      "threshold": 0.695,
+      "sensitivity": 0.252873563218391,
+      "specificity": 0.995983935742972
+    },
+    {
+      "model": "M1",
+      "threshold": 0.7,
+      "sensitivity": 0.235632183908046,
+      "specificity": 0.995983935742972
+    },
+    {
+      "model": "M1",
+      "threshold": 0.705,
+      "sensitivity": 0.235632183908046,
+      "specificity": 0.995983935742972
+    },
+    {
+      "model": "M1",
+      "threshold": 0.71,
+      "sensitivity": 0.229885057471264,
+      "specificity": 0.996787148594378
+    },
+    {
+      "model": "M1",
+      "threshold": 0.715,
+      "sensitivity": 0.229885057471264,
+      "specificity": 0.996787148594378
+    },
+    {
+      "model": "M1",
+      "threshold": 0.72,
+      "sensitivity": 0.229885057471264,
+      "specificity": 0.997590361445783
+    },
+    {
+      "model": "M1",
+      "threshold": 0.725,
+      "sensitivity": 0.21264367816092,
+      "specificity": 0.997590361445783
+    },
+    {
+      "model": "M1",
+      "threshold": 0.73,
+      "sensitivity": 0.201149425287356,
+      "specificity": 0.997590361445783
+    },
+    {
+      "model": "M1",
+      "threshold": 0.735,
+      "sensitivity": 0.201149425287356,
+      "specificity": 0.997590361445783
+    },
+    {
+      "model": "M1",
+      "threshold": 0.74,
+      "sensitivity": 0.195402298850575,
+      "specificity": 0.997590361445783
+    },
+    {
+      "model": "M1",
+      "threshold": 0.745,
+      "sensitivity": 0.189655172413793,
+      "specificity": 0.997590361445783
+    },
+    {
+      "model": "M1",
+      "threshold": 0.75,
+      "sensitivity": 0.183908045977011,
+      "specificity": 0.997590361445783
+    },
+    {
+      "model": "M1",
+      "threshold": 0.755,
+      "sensitivity": 0.17816091954023,
+      "specificity": 0.997590361445783
+    },
+    {
+      "model": "M1",
+      "threshold": 0.76,
+      "sensitivity": 0.17816091954023,
+      "specificity": 0.998393574297189
+    },
+    {
+      "model": "M1",
+      "threshold": 0.765,
+      "sensitivity": 0.172413793103448,
+      "specificity": 0.998393574297189
+    },
+    {
+      "model": "M1",
+      "threshold": 0.77,
+      "sensitivity": 0.166666666666667,
+      "specificity": 0.998393574297189
+    },
+    {
+      "model": "M1",
+      "threshold": 0.775,
+      "sensitivity": 0.166666666666667,
+      "specificity": 0.998393574297189
+    },
+    {
+      "model": "M1",
+      "threshold": 0.78,
+      "sensitivity": 0.166666666666667,
+      "specificity": 0.998393574297189
+    },
+    {
+      "model": "M1",
+      "threshold": 0.785,
+      "sensitivity": 0.166666666666667,
+      "specificity": 0.998393574297189
+    },
+    {
+      "model": "M1",
+      "threshold": 0.79,
+      "sensitivity": 0.160919540229885,
+      "specificity": 0.998393574297189
+    },
+    {
+      "model": "M1",
+      "threshold": 0.795,
+      "sensitivity": 0.137931034482759,
+      "specificity": 0.998393574297189
+    },
+    {
+      "model": "M1",
+      "threshold": 0.8,
+      "sensitivity": 0.126436781609195,
+      "specificity": 0.998393574297189
+    },
+    {
+      "model": "M2",
+      "threshold": 0.05,
+      "sensitivity": 0.942528735632184,
+      "specificity": 0.395180722891566
+    },
+    {
+      "model": "M2",
+      "threshold": 0.055,
+      "sensitivity": 0.936781609195402,
+      "specificity": 0.409638554216867
+    },
+    {
+      "model": "M2",
+      "threshold": 0.06,
+      "sensitivity": 0.936781609195402,
+      "specificity": 0.423293172690763
+    },
+    {
+      "model": "M2",
+      "threshold": 0.065,
+      "sensitivity": 0.931034482758621,
+      "specificity": 0.436947791164659
+    },
+    {
+      "model": "M2",
+      "threshold": 0.07,
+      "sensitivity": 0.931034482758621,
+      "specificity": 0.449799196787149
+    },
+    {
+      "model": "M2",
+      "threshold": 0.075,
+      "sensitivity": 0.925287356321839,
+      "specificity": 0.457831325301205
+    },
+    {
+      "model": "M2",
+      "threshold": 0.08,
+      "sensitivity": 0.925287356321839,
+      "specificity": 0.470682730923695
+    },
+    {
+      "model": "M2",
+      "threshold": 0.085,
+      "sensitivity": 0.925287356321839,
+      "specificity": 0.482730923694779
+    },
+    {
+      "model": "M2",
+      "threshold": 0.09,
+      "sensitivity": 0.919540229885057,
+      "specificity": 0.493975903614458
+    },
+    {
+      "model": "M2",
+      "threshold": 0.095,
+      "sensitivity": 0.919540229885057,
+      "specificity": 0.506024096385542
+    },
+    {
+      "model": "M2",
+      "threshold": 0.1,
+      "sensitivity": 0.919540229885057,
+      "specificity": 0.518072289156627
+    },
+    {
+      "model": "M2",
+      "threshold": 0.105,
+      "sensitivity": 0.913793103448276,
+      "specificity": 0.523694779116466
+    },
+    {
+      "model": "M2",
+      "threshold": 0.11,
+      "sensitivity": 0.913793103448276,
+      "specificity": 0.529317269076305
+    },
+    {
+      "model": "M2",
+      "threshold": 0.115,
+      "sensitivity": 0.913793103448276,
+      "specificity": 0.542971887550201
+    },
+    {
+      "model": "M2",
+      "threshold": 0.12,
+      "sensitivity": 0.908045977011494,
+      "specificity": 0.551004016064257
+    },
+    {
+      "model": "M2",
+      "threshold": 0.125,
+      "sensitivity": 0.908045977011494,
+      "specificity": 0.556626506024096
+    },
+    {
+      "model": "M2",
+      "threshold": 0.13,
+      "sensitivity": 0.902298850574713,
+      "specificity": 0.564658634538153
+    },
+    {
+      "model": "M2",
+      "threshold": 0.135,
+      "sensitivity": 0.902298850574713,
+      "specificity": 0.573493975903615
+    },
+    {
+      "model": "M2",
+      "threshold": 0.14,
+      "sensitivity": 0.902298850574713,
+      "specificity": 0.575903614457831
+    },
+    {
+      "model": "M2",
+      "threshold": 0.145,
+      "sensitivity": 0.896551724137931,
+      "specificity": 0.586345381526104
+    },
+    {
+      "model": "M2",
+      "threshold": 0.15,
+      "sensitivity": 0.896551724137931,
+      "specificity": 0.594377510040161
+    },
+    {
+      "model": "M2",
+      "threshold": 0.155,
+      "sensitivity": 0.896551724137931,
+      "specificity": 0.6
+    },
+    {
+      "model": "M2",
+      "threshold": 0.16,
+      "sensitivity": 0.896551724137931,
+      "specificity": 0.610441767068273
+    },
+    {
+      "model": "M2",
+      "threshold": 0.165,
+      "sensitivity": 0.896551724137931,
+      "specificity": 0.616867469879518
+    },
+    {
+      "model": "M2",
+      "threshold": 0.17,
+      "sensitivity": 0.896551724137931,
+      "specificity": 0.623293172690763
+    },
+    {
+      "model": "M2",
+      "threshold": 0.175,
+      "sensitivity": 0.896551724137931,
+      "specificity": 0.629718875502008
+    },
+    {
+      "model": "M2",
+      "threshold": 0.18,
+      "sensitivity": 0.879310344827586,
+      "specificity": 0.636144578313253
+    },
+    {
+      "model": "M2",
+      "threshold": 0.185,
+      "sensitivity": 0.879310344827586,
+      "specificity": 0.64578313253012
+    },
+    {
+      "model": "M2",
+      "threshold": 0.19,
+      "sensitivity": 0.879310344827586,
+      "specificity": 0.650602409638554
+    },
+    {
+      "model": "M2",
+      "threshold": 0.195,
+      "sensitivity": 0.879310344827586,
+      "specificity": 0.659437751004016
+    },
+    {
+      "model": "M2",
+      "threshold": 0.2,
+      "sensitivity": 0.873563218390805,
+      "specificity": 0.663453815261044
+    },
+    {
+      "model": "M2",
+      "threshold": 0.205,
+      "sensitivity": 0.873563218390805,
+      "specificity": 0.666666666666667
+    },
+    {
+      "model": "M2",
+      "threshold": 0.21,
+      "sensitivity": 0.873563218390805,
+      "specificity": 0.678714859437751
+    },
+    {
+      "model": "M2",
+      "threshold": 0.215,
+      "sensitivity": 0.873563218390805,
+      "specificity": 0.687550200803213
+    },
+    {
+      "model": "M2",
+      "threshold": 0.22,
+      "sensitivity": 0.873563218390805,
+      "specificity": 0.693975903614458
+    },
+    {
+      "model": "M2",
+      "threshold": 0.225,
+      "sensitivity": 0.873563218390805,
+      "specificity": 0.69718875502008
+    },
+    {
+      "model": "M2",
+      "threshold": 0.23,
+      "sensitivity": 0.867816091954023,
+      "specificity": 0.70281124497992
+    },
+    {
+      "model": "M2",
+      "threshold": 0.235,
+      "sensitivity": 0.862068965517241,
+      "specificity": 0.706827309236948
+    },
+    {
+      "model": "M2",
+      "threshold": 0.24,
+      "sensitivity": 0.862068965517241,
+      "specificity": 0.714859437751004
+    },
+    {
+      "model": "M2",
+      "threshold": 0.245,
+      "sensitivity": 0.85632183908046,
+      "specificity": 0.717269076305221
+    },
+    {
+      "model": "M2",
+      "threshold": 0.25,
+      "sensitivity": 0.85632183908046,
+      "specificity": 0.722088353413655
+    },
+    {
+      "model": "M2",
+      "threshold": 0.255,
+      "sensitivity": 0.85632183908046,
+      "specificity": 0.726907630522088
+    },
+    {
+      "model": "M2",
+      "threshold": 0.26,
+      "sensitivity": 0.844827586206897,
+      "specificity": 0.732530120481928
+    },
+    {
+      "model": "M2",
+      "threshold": 0.265,
+      "sensitivity": 0.844827586206897,
+      "specificity": 0.74136546184739
+    },
+    {
+      "model": "M2",
+      "threshold": 0.27,
+      "sensitivity": 0.844827586206897,
+      "specificity": 0.744578313253012
+    },
+    {
+      "model": "M2",
+      "threshold": 0.275,
+      "sensitivity": 0.833333333333333,
+      "specificity": 0.749397590361446
+    },
+    {
+      "model": "M2",
+      "threshold": 0.28,
+      "sensitivity": 0.827586206896552,
+      "specificity": 0.752610441767068
+    },
+    {
+      "model": "M2",
+      "threshold": 0.285,
+      "sensitivity": 0.816091954022989,
+      "specificity": 0.755020080321285
+    },
+    {
+      "model": "M2",
+      "threshold": 0.29,
+      "sensitivity": 0.810344827586207,
+      "specificity": 0.759839357429719
+    },
+    {
+      "model": "M2",
+      "threshold": 0.295,
+      "sensitivity": 0.804597701149425,
+      "specificity": 0.764658634538153
+    },
+    {
+      "model": "M2",
+      "threshold": 0.3,
+      "sensitivity": 0.798850574712644,
+      "specificity": 0.767871485943775
+    },
+    {
+      "model": "M2",
+      "threshold": 0.305,
+      "sensitivity": 0.798850574712644,
+      "specificity": 0.775100401606426
+    },
+    {
+      "model": "M2",
+      "threshold": 0.31,
+      "sensitivity": 0.798850574712644,
+      "specificity": 0.780722891566265
+    },
+    {
+      "model": "M2",
+      "threshold": 0.315,
+      "sensitivity": 0.798850574712644,
+      "specificity": 0.782329317269076
+    },
+    {
+      "model": "M2",
+      "threshold": 0.32,
+      "sensitivity": 0.798850574712644,
+      "specificity": 0.783935742971888
+    },
+    {
+      "model": "M2",
+      "threshold": 0.325,
+      "sensitivity": 0.798850574712644,
+      "specificity": 0.78714859437751
+    },
+    {
+      "model": "M2",
+      "threshold": 0.33,
+      "sensitivity": 0.798850574712644,
+      "specificity": 0.791164658634538
+    },
+    {
+      "model": "M2",
+      "threshold": 0.335,
+      "sensitivity": 0.798850574712644,
+      "specificity": 0.792771084337349
+    },
+    {
+      "model": "M2",
+      "threshold": 0.34,
+      "sensitivity": 0.793103448275862,
+      "specificity": 0.794377510040161
+    },
+    {
+      "model": "M2",
+      "threshold": 0.345,
+      "sensitivity": 0.793103448275862,
+      "specificity": 0.798393574297189
+    },
+    {
+      "model": "M2",
+      "threshold": 0.35,
+      "sensitivity": 0.793103448275862,
+      "specificity": 0.803212851405622
+    },
+    {
+      "model": "M2",
+      "threshold": 0.355,
+      "sensitivity": 0.78735632183908,
+      "specificity": 0.804819277108434
+    },
+    {
+      "model": "M2",
+      "threshold": 0.36,
+      "sensitivity": 0.781609195402299,
+      "specificity": 0.809638554216867
+    },
+    {
+      "model": "M2",
+      "threshold": 0.365,
+      "sensitivity": 0.781609195402299,
+      "specificity": 0.813654618473896
+    },
+    {
+      "model": "M2",
+      "threshold": 0.37,
+      "sensitivity": 0.781609195402299,
+      "specificity": 0.817670682730924
+    },
+    {
+      "model": "M2",
+      "threshold": 0.375,
+      "sensitivity": 0.781609195402299,
+      "specificity": 0.822489959839357
+    },
+    {
+      "model": "M2",
+      "threshold": 0.38,
+      "sensitivity": 0.781609195402299,
+      "specificity": 0.824096385542169
+    },
+    {
+      "model": "M2",
+      "threshold": 0.385,
+      "sensitivity": 0.775862068965517,
+      "specificity": 0.831325301204819
+    },
+    {
+      "model": "M2",
+      "threshold": 0.39,
+      "sensitivity": 0.770114942528736,
+      "specificity": 0.832128514056225
+    },
+    {
+      "model": "M2",
+      "threshold": 0.395,
+      "sensitivity": 0.764367816091954,
+      "specificity": 0.835341365461847
+    },
+    {
+      "model": "M2",
+      "threshold": 0.4,
+      "sensitivity": 0.764367816091954,
+      "specificity": 0.837751004016064
+    },
+    {
+      "model": "M2",
+      "threshold": 0.405,
+      "sensitivity": 0.764367816091954,
+      "specificity": 0.841767068273092
+    },
+    {
+      "model": "M2",
+      "threshold": 0.41,
+      "sensitivity": 0.764367816091954,
+      "specificity": 0.844176706827309
+    },
+    {
+      "model": "M2",
+      "threshold": 0.415,
+      "sensitivity": 0.758620689655172,
+      "specificity": 0.844979919678715
+    },
+    {
+      "model": "M2",
+      "threshold": 0.42,
+      "sensitivity": 0.758620689655172,
+      "specificity": 0.848192771084337
+    },
+    {
+      "model": "M2",
+      "threshold": 0.425,
+      "sensitivity": 0.752873563218391,
+      "specificity": 0.852208835341365
+    },
+    {
+      "model": "M2",
+      "threshold": 0.43,
+      "sensitivity": 0.752873563218391,
+      "specificity": 0.853815261044177
+    },
+    {
+      "model": "M2",
+      "threshold": 0.435,
+      "sensitivity": 0.752873563218391,
+      "specificity": 0.856224899598394
+    },
+    {
+      "model": "M2",
+      "threshold": 0.44,
+      "sensitivity": 0.752873563218391,
+      "specificity": 0.86425702811245
+    },
+    {
+      "model": "M2",
+      "threshold": 0.445,
+      "sensitivity": 0.752873563218391,
+      "specificity": 0.866666666666667
+    },
+    {
+      "model": "M2",
+      "threshold": 0.45,
+      "sensitivity": 0.752873563218391,
+      "specificity": 0.868273092369478
+    },
+    {
+      "model": "M2",
+      "threshold": 0.455,
+      "sensitivity": 0.747126436781609,
+      "specificity": 0.868273092369478
+    },
+    {
+      "model": "M2",
+      "threshold": 0.46,
+      "sensitivity": 0.747126436781609,
+      "specificity": 0.869076305220884
+    },
+    {
+      "model": "M2",
+      "threshold": 0.465,
+      "sensitivity": 0.747126436781609,
+      "specificity": 0.874698795180723
+    },
+    {
+      "model": "M2",
+      "threshold": 0.47,
+      "sensitivity": 0.747126436781609,
+      "specificity": 0.876305220883534
+    },
+    {
+      "model": "M2",
+      "threshold": 0.475,
+      "sensitivity": 0.741379310344828,
+      "specificity": 0.878714859437751
+    },
+    {
+      "model": "M2",
+      "threshold": 0.48,
+      "sensitivity": 0.741379310344828,
+      "specificity": 0.881927710843374
+    },
+    {
+      "model": "M2",
+      "threshold": 0.485,
+      "sensitivity": 0.741379310344828,
+      "specificity": 0.886746987951807
+    },
+    {
+      "model": "M2",
+      "threshold": 0.49,
+      "sensitivity": 0.741379310344828,
+      "specificity": 0.889156626506024
+    },
+    {
+      "model": "M2",
+      "threshold": 0.495,
+      "sensitivity": 0.735632183908046,
+      "specificity": 0.88995983935743
+    },
+    {
+      "model": "M2",
+      "threshold": 0.5,
+      "sensitivity": 0.729885057471264,
+      "specificity": 0.893975903614458
+    },
+    {
+      "model": "M2",
+      "threshold": 0.505,
+      "sensitivity": 0.729885057471264,
+      "specificity": 0.895582329317269
+    },
+    {
+      "model": "M2",
+      "threshold": 0.51,
+      "sensitivity": 0.729885057471264,
+      "specificity": 0.897991967871486
+    },
+    {
+      "model": "M2",
+      "threshold": 0.515,
+      "sensitivity": 0.724137931034483,
+      "specificity": 0.899598393574297
+    },
+    {
+      "model": "M2",
+      "threshold": 0.52,
+      "sensitivity": 0.724137931034483,
+      "specificity": 0.901204819277108
+    },
+    {
+      "model": "M2",
+      "threshold": 0.525,
+      "sensitivity": 0.71264367816092,
+      "specificity": 0.902008032128514
+    },
+    {
+      "model": "M2",
+      "threshold": 0.53,
+      "sensitivity": 0.71264367816092,
+      "specificity": 0.903614457831325
+    },
+    {
+      "model": "M2",
+      "threshold": 0.535,
+      "sensitivity": 0.71264367816092,
+      "specificity": 0.904417670682731
+    },
+    {
+      "model": "M2",
+      "threshold": 0.54,
+      "sensitivity": 0.71264367816092,
+      "specificity": 0.906024096385542
+    },
+    {
+      "model": "M2",
+      "threshold": 0.545,
+      "sensitivity": 0.706896551724138,
+      "specificity": 0.907630522088353
+    },
+    {
+      "model": "M2",
+      "threshold": 0.55,
+      "sensitivity": 0.706896551724138,
+      "specificity": 0.911646586345382
+    },
+    {
+      "model": "M2",
+      "threshold": 0.555,
+      "sensitivity": 0.706896551724138,
+      "specificity": 0.912449799196787
+    },
+    {
+      "model": "M2",
+      "threshold": 0.56,
+      "sensitivity": 0.695402298850575,
+      "specificity": 0.912449799196787
+    },
+    {
+      "model": "M2",
+      "threshold": 0.565,
+      "sensitivity": 0.695402298850575,
+      "specificity": 0.913253012048193
+    },
+    {
+      "model": "M2",
+      "threshold": 0.57,
+      "sensitivity": 0.695402298850575,
+      "specificity": 0.913253012048193
+    },
+    {
+      "model": "M2",
+      "threshold": 0.575,
+      "sensitivity": 0.683908045977011,
+      "specificity": 0.914859437751004
+    },
+    {
+      "model": "M2",
+      "threshold": 0.58,
+      "sensitivity": 0.683908045977011,
+      "specificity": 0.916465863453815
+    },
+    {
+      "model": "M2",
+      "threshold": 0.585,
+      "sensitivity": 0.67816091954023,
+      "specificity": 0.917269076305221
+    },
+    {
+      "model": "M2",
+      "threshold": 0.59,
+      "sensitivity": 0.67816091954023,
+      "specificity": 0.918875502008032
+    },
+    {
+      "model": "M2",
+      "threshold": 0.595,
+      "sensitivity": 0.672413793103448,
+      "specificity": 0.919678714859438
+    },
+    {
+      "model": "M2",
+      "threshold": 0.6,
+      "sensitivity": 0.672413793103448,
+      "specificity": 0.921285140562249
+    },
+    {
+      "model": "M2",
+      "threshold": 0.605,
+      "sensitivity": 0.672413793103448,
+      "specificity": 0.92289156626506
+    },
+    {
+      "model": "M2",
+      "threshold": 0.61,
+      "sensitivity": 0.666666666666667,
+      "specificity": 0.924497991967872
+    },
+    {
+      "model": "M2",
+      "threshold": 0.615,
+      "sensitivity": 0.660919540229885,
+      "specificity": 0.924497991967872
+    },
+    {
+      "model": "M2",
+      "threshold": 0.62,
+      "sensitivity": 0.660919540229885,
+      "specificity": 0.926907630522088
+    },
+    {
+      "model": "M2",
+      "threshold": 0.625,
+      "sensitivity": 0.649425287356322,
+      "specificity": 0.927710843373494
+    },
+    {
+      "model": "M2",
+      "threshold": 0.63,
+      "sensitivity": 0.64367816091954,
+      "specificity": 0.930120481927711
+    },
+    {
+      "model": "M2",
+      "threshold": 0.635,
+      "sensitivity": 0.632183908045977,
+      "specificity": 0.930923694779117
+    },
+    {
+      "model": "M2",
+      "threshold": 0.64,
+      "sensitivity": 0.626436781609195,
+      "specificity": 0.932530120481928
+    },
+    {
+      "model": "M2",
+      "threshold": 0.645,
+      "sensitivity": 0.626436781609195,
+      "specificity": 0.93574297188755
+    },
+    {
+      "model": "M2",
+      "threshold": 0.65,
+      "sensitivity": 0.626436781609195,
+      "specificity": 0.938152610441767
+    },
+    {
+      "model": "M2",
+      "threshold": 0.655,
+      "sensitivity": 0.626436781609195,
+      "specificity": 0.94136546184739
+    },
+    {
+      "model": "M2",
+      "threshold": 0.66,
+      "sensitivity": 0.614942528735632,
+      "specificity": 0.943775100401606
+    },
+    {
+      "model": "M2",
+      "threshold": 0.665,
+      "sensitivity": 0.614942528735632,
+      "specificity": 0.945381526104418
+    },
+    {
+      "model": "M2",
+      "threshold": 0.67,
+      "sensitivity": 0.614942528735632,
+      "specificity": 0.946184738955823
+    },
+    {
+      "model": "M2",
+      "threshold": 0.675,
+      "sensitivity": 0.603448275862069,
+      "specificity": 0.946987951807229
+    },
+    {
+      "model": "M2",
+      "threshold": 0.68,
+      "sensitivity": 0.591954022988506,
+      "specificity": 0.947791164658635
+    },
+    {
+      "model": "M2",
+      "threshold": 0.685,
+      "sensitivity": 0.586206896551724,
+      "specificity": 0.949397590361446
+    },
+    {
+      "model": "M2",
+      "threshold": 0.69,
+      "sensitivity": 0.586206896551724,
+      "specificity": 0.952610441767068
+    },
+    {
+      "model": "M2",
+      "threshold": 0.695,
+      "sensitivity": 0.586206896551724,
+      "specificity": 0.953413654618474
+    },
+    {
+      "model": "M2",
+      "threshold": 0.7,
+      "sensitivity": 0.586206896551724,
+      "specificity": 0.955020080321285
+    },
+    {
+      "model": "M2",
+      "threshold": 0.705,
+      "sensitivity": 0.574712643678161,
+      "specificity": 0.958232931726908
+    },
+    {
+      "model": "M2",
+      "threshold": 0.71,
+      "sensitivity": 0.568965517241379,
+      "specificity": 0.959839357429719
+    },
+    {
+      "model": "M2",
+      "threshold": 0.715,
+      "sensitivity": 0.568965517241379,
+      "specificity": 0.962248995983936
+    },
+    {
+      "model": "M2",
+      "threshold": 0.72,
+      "sensitivity": 0.563218390804598,
+      "specificity": 0.963052208835341
+    },
+    {
+      "model": "M2",
+      "threshold": 0.725,
+      "sensitivity": 0.557471264367816,
+      "specificity": 0.964658634538153
+    },
+    {
+      "model": "M2",
+      "threshold": 0.73,
+      "sensitivity": 0.545977011494253,
+      "specificity": 0.967068273092369
+    },
+    {
+      "model": "M2",
+      "threshold": 0.735,
+      "sensitivity": 0.540229885057471,
+      "specificity": 0.967871485943775
+    },
+    {
+      "model": "M2",
+      "threshold": 0.74,
+      "sensitivity": 0.53448275862069,
+      "specificity": 0.967871485943775
+    },
+    {
+      "model": "M2",
+      "threshold": 0.745,
+      "sensitivity": 0.53448275862069,
+      "specificity": 0.969477911646586
+    },
+    {
+      "model": "M2",
+      "threshold": 0.75,
+      "sensitivity": 0.511494252873563,
+      "specificity": 0.970281124497992
+    },
+    {
+      "model": "M2",
+      "threshold": 0.755,
+      "sensitivity": 0.505747126436782,
+      "specificity": 0.973493975903614
+    },
+    {
+      "model": "M2",
+      "threshold": 0.76,
+      "sensitivity": 0.5,
+      "specificity": 0.973493975903614
+    },
+    {
+      "model": "M2",
+      "threshold": 0.765,
+      "sensitivity": 0.494252873563218,
+      "specificity": 0.975100401606426
+    },
+    {
+      "model": "M2",
+      "threshold": 0.77,
+      "sensitivity": 0.488505747126437,
+      "specificity": 0.975903614457831
+    },
+    {
+      "model": "M2",
+      "threshold": 0.775,
+      "sensitivity": 0.488505747126437,
+      "specificity": 0.975903614457831
+    },
+    {
+      "model": "M2",
+      "threshold": 0.78,
+      "sensitivity": 0.471264367816092,
+      "specificity": 0.975903614457831
+    },
+    {
+      "model": "M2",
+      "threshold": 0.785,
+      "sensitivity": 0.471264367816092,
+      "specificity": 0.976706827309237
+    },
+    {
+      "model": "M2",
+      "threshold": 0.79,
+      "sensitivity": 0.471264367816092,
+      "specificity": 0.977510040160643
+    },
+    {
+      "model": "M2",
+      "threshold": 0.795,
+      "sensitivity": 0.471264367816092,
+      "specificity": 0.978313253012048
+    },
+    {
+      "model": "M2",
+      "threshold": 0.8,
+      "sensitivity": 0.471264367816092,
+      "specificity": 0.979116465863454
+    }
+  ],
+  "importance": {
+    "M1": [
+      {
+        "feature": "min_day",
+        "value": 0.141380578301662,
+        "signed": -0.141380578301662
+      },
+      {
+        "feature": "percentile10_day",
+        "value": 0.107772445698557,
+        "signed": -0.107772445698557
+      },
+      {
+        "feature": "roll3_sum_night_hypo",
+        "value": 0.0746340872238056,
+        "signed": 0.0746340872238056
+      },
+      {
+        "feature": "lbgi_day",
+        "value": 0.0678412347874654,
+        "signed": 0.0678412347874654
+      },
+      {
+        "feature": "lag1_night_hypo",
+        "value": 0.0597196396315028,
+        "signed": 0.0597196396315028
+      },
+      {
+        "feature": "roll7_sum_night_hypo",
+        "value": 0.0582046931843727,
+        "signed": 0.0582046931843727
+      },
+      {
+        "feature": "tir_5_to__pct_day",
+        "value": 0.0546221793380592,
+        "signed": -0.0546221793380592
+      },
+      {
+        "feature": "lag1_day_lbgi",
+        "value": 0.0507859042224263,
+        "signed": 0.0507859042224263
+      },
+      {
+        "feature": "tir_below_5__min_day",
+        "value": 0.0427180042597561,
+        "signed": -0.0427180042597561
+      },
+      {
+        "feature": "roll7_max_night_tbr",
+        "value": 0.0398672654952382,
+        "signed": 0.0398672654952382
+      },
+      {
+        "feature": "tir_below_5_6__min_day",
+        "value": 0.0290451672813962,
+        "signed": 0.0290451672813962
+      },
+      {
+        "feature": "roll3_max_night_tbr",
+        "value": 0.0289325880710103,
+        "signed": 0.0289325880710103
+      },
+      {
+        "feature": "tir_5_6_to__pct_day",
+        "value": 0.0279514129857732,
+        "signed": 0.0279514129857732
+      },
+      {
+        "feature": "roll3_mean_day_lbgi",
+        "value": 0.0159624738775837,
+        "signed": 0.0159624738775837
+      },
+      {
+        "feature": "tir_3_to_3_9__min_day",
+        "value": 0.0123755021431256,
+        "signed": 0.0123755021431256
+      },
+      {
+        "feature": "x_3_3_9_day",
+        "value": 0.0102392752888165,
+        "signed": 0.0102392752888165
+      },
+      {
+        "feature": "roll3_mean_night_tbr",
+        "value": 0.00991995033026584,
+        "signed": 0.00991995033026584
+      },
+      {
+        "feature": "roll7_mean_night_tbr",
+        "value": 0.00676925049608843,
+        "signed": 0.00676925049608843
+      },
+      {
+        "feature": "roll7_mean_day_lbgi",
+        "value": 0.00603423924428968,
+        "signed": 0.00603423924428968
+      },
+      {
+        "feature": "cv_day",
+        "value": 0.00377585995272443,
+        "signed": 0.00377585995272443
+      },
+      {
+        "feature": "valid_data_ratio_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "mean_glucose_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "median_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "ehba1c_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "ehba1c_mmol_mol_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "sd_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "mage_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "modd_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "lage_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "bgri_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "hbgi_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "max_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "jindex_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "adrr_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "mvalue_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "gmi_mmol_mol_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "gmi_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "iqr_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "percentile25_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "percentile75_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "percentile90_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "gri_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "tir_below_2_8__min_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "tir_2_8_to__pct_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "tir_below_3__min_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "tir_3_to__pct_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "tir_below_3_9__min_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "tir_3_9_to__pct_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "tir_3_9_to_10__min_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "x_3_9_10_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "tir_below_10__min_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "tir_10_to__pct_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "tir_10_to_13_9__min_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "x_10_13_9_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "tir_below_13_9__min_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "tir_13_9_to__pct_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "tir_10_to_16_7__min_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "x_10_16_7_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "tir_13_9_to_16_7__min_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "x_13_9_16_7_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "tir_below_16_7__min_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "tir_16_7_to__pct_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "tir_3_to_3_5__min_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "x_3_3_5_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "tir_below_3_5__min_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "tir_3_5_to__pct_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "tir_3_5_to_7_8__min_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "x_3_5_7_8_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "tir_below_7_8__min_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "tir_7_8_to__pct_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "tir_7_8_to_10__min_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "x_7_8_10_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "tir_3_5_to_6_7__min_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "x_3_5_6_7_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "tir_below_6_7__min_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "tir_6_7_to__pct_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "tir_6_7_to_10__min_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "x_6_7_10_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "tir_3_9_to_5_6__min_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "x_3_9_5_6_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "tir_5_6_to_7_8__min_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "x_5_6_7_8_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "tir_5_6_to_10__min_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "x_5_6_10_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "tir_3_9_to_7_8__min_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "x_3_9_7_8_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "tir_3_9_to_8_3__min_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "x_3_9_8_3_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "tir_below_8_3__min_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "tir_8_3_to__pct_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "tir_8_3_to_10__min_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "x_8_3_10_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "tir_3_9_to_8_9__min_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "x_3_9_8_9_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "tir_below_8_9__min_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "tir_8_9_to__pct_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "tir_8_9_to_10__min_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "x_8_9_10_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "tir_3_9_to_9_4__min_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "x_3_9_9_4_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "tir_below_9_4__min_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "tir_9_4_to__pct_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "tir_9_4_to_10__min_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "x_9_4_10_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "tir_3_9_to_10_6__min_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "x_3_9_10_6_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "tir_below_10_6__min_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "tir_10_6_to__pct_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "tir_10_6_to_13_9__min_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "x_10_6_13_9_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "tir_3_9_to_11_1__min_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "x_3_9_11_1_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "tir_below_11_1__min_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "tir_11_1_to__pct_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "tir_11_1_to_13_9__min_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "x_11_1_13_9_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "tir_below_3_3__min_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "tir_3_3_to__pct_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "tir_3_3_to_11_1__min_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "x_3_3_11_1_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "tir_11_1_to_16_7__min_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "x_11_1_16_7_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "tir_3_9_to_13_9__min_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "x_3_9_13_9_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "tir_3_9_to_5__min_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "x_3_9_5_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "tir_5_to_10__min_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "x_5_10_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "tir_3_9_to_6__min_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "x_3_9_6_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "tir_below_6__min_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "tir_6_to__pct_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "tir_6_to_10__min_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "x_6_10_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "tir_3_9_to_7__min_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "x_3_9_7_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "tir_below_7__min_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "tir_7_to__pct_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "tir_7_to_10__min_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "x_7_10_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "tir_3_9_to_8__min_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "x_3_9_8_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "tir_below_8__min_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "tir_8_to__pct_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "tir_8_to_12__min_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "x_8_12_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "tir_below_12__min_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "tir_12_to__pct_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "tir_12_to_16_7__min_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "x_12_16_7_day",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "n_readings",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "gender",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "has_history",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "hist_n_days",
+        "value": 0,
+        "signed": 0
+      },
+      {
+        "feature": "lag1_night_tbr",
+        "value": 0,
+        "signed": 0
+      }
+    ],
+    "M2": [
+      {
+        "feature": "lbgi_day",
+        "value": 0.633797
+      },
+      {
+        "feature": "min_day",
+        "value": 0.579036
+      },
+      {
+        "feature": "lag1_day_lbgi",
+        "value": 0.407403
+      },
+      {
+        "feature": "roll3_mean_day_lbgi",
+        "value": 0.241609
+      },
+      {
+        "feature": "mage_day",
+        "value": 0.236943
+      },
+      {
+        "feature": "percentile10_day",
+        "value": 0.146307
+      },
+      {
+        "feature": "roll7_mean_night_tbr",
+        "value": 0.131878
+      },
+      {
+        "feature": "roll7_mean_day_lbgi",
+        "value": 0.126134
+      },
+      {
+        "feature": "modd_day",
+        "value": 0.123849
+      },
+      {
+        "feature": "sd_day",
+        "value": 0.123748
+      },
+      {
+        "feature": "roll7_sum_night_hypo",
+        "value": 0.118445
+      },
+      {
+        "feature": "roll3_mean_night_tbr",
+        "value": 0.115992
+      },
+      {
+        "feature": "hist_n_days",
+        "value": 0.104701
+      },
+      {
+        "feature": "lag1_night_tbr",
+        "value": 0.097085
+      },
+      {
+        "feature": "max_day",
+        "value": 0.084588
+      },
+      {
+        "feature": "mvalue_day",
+        "value": 0.083821
+      },
+      {
+        "feature": "hbgi_day",
+        "value": 0.077369
+      },
+      {
+        "feature": "lag1_night_hypo",
+        "value": 0.068765
+      },
+      {
+        "feature": "tir_below_5__min_day",
+        "value": 0.063068
+      },
+      {
+        "feature": "tir_9_4_to_10__min_day",
+        "value": 0.059972
+      },
+      {
+        "feature": "roll3_max_night_tbr",
+        "value": 0.057076
+      },
+      {
+        "feature": "adrr_day",
+        "value": 0.056961
+      },
+      {
+        "feature": "mean_glucose_day",
+        "value": 0.052481
+      },
+      {
+        "feature": "roll3_sum_night_hypo",
+        "value": 0.050812
+      },
+      {
+        "feature": "x_5_10_day",
+        "value": 0.05047
+      },
+      {
+        "feature": "cv_day",
+        "value": 0.047057
+      },
+      {
+        "feature": "roll7_max_night_tbr",
+        "value": 0.046732
+      },
+      {
+        "feature": "bgri_day",
+        "value": 0.046049
+      },
+      {
+        "feature": "iqr_day",
+        "value": 0.04464
+      },
+      {
+        "feature": "gender",
+        "value": 0.043698
+      },
+      {
+        "feature": "percentile25_day",
+        "value": 0.042901
+      },
+      {
+        "feature": "x_3_9_6_day",
+        "value": 0.042573
+      },
+      {
+        "feature": "tir_3_9_to_6__min_day",
+        "value": 0.04028
+      },
+      {
+        "feature": "tir_6_to_10__min_day",
+        "value": 0.038358
+      },
+      {
+        "feature": "lage_day",
+        "value": 0.038292
+      },
+      {
+        "feature": "x_7_10_day",
+        "value": 0.038283
+      },
+      {
+        "feature": "tir_8_9_to__pct_day",
+        "value": 0.037486
+      },
+      {
+        "feature": "x_8_12_day",
+        "value": 0.037364
+      },
+      {
+        "feature": "x_7_8_10_day",
+        "value": 0.035196
+      },
+      {
+        "feature": "tir_below_8__min_day",
+        "value": 0.033317
+      },
+      {
+        "feature": "x_6_7_10_day",
+        "value": 0.032794
+      },
+      {
+        "feature": "x_8_9_10_day",
+        "value": 0.032708
+      },
+      {
+        "feature": "x_9_4_10_day",
+        "value": 0.032581
+      },
+      {
+        "feature": "tir_5_to_10__min_day",
+        "value": 0.032478
+      },
+      {
+        "feature": "x_5_6_7_8_day",
+        "value": 0.032267
+      },
+      {
+        "feature": "tir_3_9_to_13_9__min_day",
+        "value": 0.032055
+      },
+      {
+        "feature": "tir_below_3_9__min_day",
+        "value": 0.0307
+      },
+      {
+        "feature": "tir_5_6_to_10__min_day",
+        "value": 0.029505
+      },
+      {
+        "feature": "x_6_10_day",
+        "value": 0.02949
+      },
+      {
+        "feature": "has_history",
+        "value": 0.029323
+      },
+      {
+        "feature": "x_12_16_7_day",
+        "value": 0.028831
+      },
+      {
+        "feature": "tir_6_to__pct_day",
+        "value": 0.027346
+      },
+      {
+        "feature": "median_day",
+        "value": 0.027325
+      },
+      {
+        "feature": "tir_3_9_to_10_6__min_day",
+        "value": 0.026711
+      },
+      {
+        "feature": "x_3_9_5_day",
+        "value": 0.026665
+      },
+      {
+        "feature": "tir_3_9_to_5_6__min_day",
+        "value": 0.026362
+      },
+      {
+        "feature": "x_3_9_8_9_day",
+        "value": 0.026081
+      },
+      {
+        "feature": "tir_5_to__pct_day",
+        "value": 0.025123
+      },
+      {
+        "feature": "tir_9_4_to__pct_day",
+        "value": 0.024937
+      },
+      {
+        "feature": "tir_8_9_to_10__min_day",
+        "value": 0.024318
+      },
+      {
+        "feature": "tir_16_7_to__pct_day",
+        "value": 0.024257
+      },
+      {
+        "feature": "tir_3_9_to_11_1__min_day",
+        "value": 0.023822
+      },
+      {
+        "feature": "tir_8_to_12__min_day",
+        "value": 0.023317
+      },
+      {
+        "feature": "x_3_5_6_7_day",
+        "value": 0.021688
+      },
+      {
+        "feature": "jindex_day",
+        "value": 0.019807
+      },
+      {
+        "feature": "tir_below_6_7__min_day",
+        "value": 0.019785
+      },
+      {
+        "feature": "tir_6_7_to_10__min_day",
+        "value": 0.018367
+      },
+      {
+        "feature": "percentile90_day",
+        "value": 0.018138
+      },
+      {
+        "feature": "tir_below_7_8__min_day",
+        "value": 0.017581
+      },
+      {
+        "feature": "tir_3_9_to_10__min_day",
+        "value": 0.017416
+      },
+      {
+        "feature": "tir_5_6_to_7_8__min_day",
+        "value": 0.016635
+      },
+      {
+        "feature": "tir_below_6__min_day",
+        "value": 0.016328
+      },
+      {
+        "feature": "x_11_1_16_7_day",
+        "value": 0.016094
+      },
+      {
+        "feature": "x_5_6_10_day",
+        "value": 0.015817
+      },
+      {
+        "feature": "x_3_9_8_day",
+        "value": 0.015678
+      },
+      {
+        "feature": "tir_3_9_to_7_8__min_day",
+        "value": 0.015198
+      },
+      {
+        "feature": "x_3_5_7_8_day",
+        "value": 0.015006
+      },
+      {
+        "feature": "gri_day",
+        "value": 0.014637
+      },
+      {
+        "feature": "x_3_9_9_4_day",
+        "value": 0.014626
+      },
+      {
+        "feature": "x_3_9_7_8_day",
+        "value": 0.014522
+      },
+      {
+        "feature": "tir_3_9_to_8_9__min_day",
+        "value": 0.014502
+      },
+      {
+        "feature": "tir_3_9_to_7__min_day",
+        "value": 0.014173
+      },
+      {
+        "feature": "tir_3_9_to_8_3__min_day",
+        "value": 0.013315
+      },
+      {
+        "feature": "tir_below_9_4__min_day",
+        "value": 0.012966
+      },
+      {
+        "feature": "tir_10_to_16_7__min_day",
+        "value": 0.012902
+      },
+      {
+        "feature": "x_3_9_10_day",
+        "value": 0.012685
+      },
+      {
+        "feature": "tir_3_5_to_6_7__min_day",
+        "value": 0.012629
+      },
+      {
+        "feature": "tir_3_9_to_5__min_day",
+        "value": 0.012422
+      },
+      {
+        "feature": "tir_5_6_to__pct_day",
+        "value": 0.0123
+      },
+      {
+        "feature": "tir_below_7__min_day",
+        "value": 0.012089
+      },
+      {
+        "feature": "x_3_9_11_1_day",
+        "value": 0.012028
+      },
+      {
+        "feature": "tir_3_3_to_11_1__min_day",
+        "value": 0.011959
+      },
+      {
+        "feature": "tir_8_3_to_10__min_day",
+        "value": 0.011821
+      },
+      {
+        "feature": "x_11_1_13_9_day",
+        "value": 0.011752
+      },
+      {
+        "feature": "tir_below_16_7__min_day",
+        "value": 0.011692
+      },
+      {
+        "feature": "tir_7_to_10__min_day",
+        "value": 0.011562
+      },
+      {
+        "feature": "percentile75_day",
+        "value": 0.011339
+      },
+      {
+        "feature": "tir_10_to_13_9__min_day",
+        "value": 0.011333
+      },
+      {
+        "feature": "tir_3_5_to_7_8__min_day",
+        "value": 0.010996
+      },
+      {
+        "feature": "tir_12_to__pct_day",
+        "value": 0.010812
+      },
+      {
+        "feature": "x_10_13_9_day",
+        "value": 0.010806
+      },
+      {
+        "feature": "x_8_3_10_day",
+        "value": 0.010805
+      },
+      {
+        "feature": "tir_below_12__min_day",
+        "value": 0.010624
+      },
+      {
+        "feature": "x_3_9_7_day",
+        "value": 0.010559
+      },
+      {
+        "feature": "tir_7_8_to_10__min_day",
+        "value": 0.010363
+      },
+      {
+        "feature": "tir_below_10_6__min_day",
+        "value": 0.010241
+      },
+      {
+        "feature": "tir_10_to__pct_day",
+        "value": 0.010057
+      },
+      {
+        "feature": "tir_7_8_to__pct_day",
+        "value": 0.01004
+      },
+      {
+        "feature": "tir_6_7_to__pct_day",
+        "value": 0.009995
+      },
+      {
+        "feature": "n_readings",
+        "value": 0.009795
+      },
+      {
+        "feature": "tir_13_9_to__pct_day",
+        "value": 0.009656
+      },
+      {
+        "feature": "x_3_9_13_9_day",
+        "value": 0.009621
+      },
+      {
+        "feature": "tir_below_8_9__min_day",
+        "value": 0.009515
+      },
+      {
+        "feature": "tir_11_1_to_16_7__min_day",
+        "value": 0.009486
+      },
+      {
+        "feature": "x_3_3_9_day",
+        "value": 0.009299
+      },
+      {
+        "feature": "tir_3_9_to__pct_day",
+        "value": 0.008917
+      },
+      {
+        "feature": "ehba1c_day",
+        "value": 0.008459
+      },
+      {
+        "feature": "tir_below_3_5__min_day",
+        "value": 0.008429
+      },
+      {
+        "feature": "tir_7_to__pct_day",
+        "value": 0.008297
+      },
+      {
+        "feature": "tir_12_to_16_7__min_day",
+        "value": 0.008262
+      },
+      {
+        "feature": "tir_3_9_to_8__min_day",
+        "value": 0.008195
+      },
+      {
+        "feature": "tir_below_5_6__min_day",
+        "value": 0.008129
+      },
+      {
+        "feature": "tir_3_9_to_9_4__min_day",
+        "value": 0.00786
+      },
+      {
+        "feature": "tir_8_3_to__pct_day",
+        "value": 0.007719
+      },
+      {
+        "feature": "tir_10_6_to_13_9__min_day",
+        "value": 0.007613
+      },
+      {
+        "feature": "x_10_6_13_9_day",
+        "value": 0.007547
+      },
+      {
+        "feature": "tir_11_1_to_13_9__min_day",
+        "value": 0.006562
+      },
+      {
+        "feature": "tir_11_1_to__pct_day",
+        "value": 0.006389
+      },
+      {
+        "feature": "x_3_9_10_6_day",
+        "value": 0.006377
+      },
+      {
+        "feature": "tir_10_6_to__pct_day",
+        "value": 0.006213
+      },
+      {
+        "feature": "gmi_mmol_mol_day",
+        "value": 0.00579
+      },
+      {
+        "feature": "tir_below_3__min_day",
+        "value": 0.005387
+      },
+      {
+        "feature": "x_13_9_16_7_day",
+        "value": 0.004979
+      },
+      {
+        "feature": "x_3_9_8_3_day",
+        "value": 0.004919
+      },
+      {
+        "feature": "tir_3_to_3_9__min_day",
+        "value": 0.004323
+      },
+      {
+        "feature": "tir_8_to__pct_day",
+        "value": 0.004319
+      },
+      {
+        "feature": "x_3_9_5_6_day",
+        "value": 0.004255
+      },
+      {
+        "feature": "x_10_16_7_day",
+        "value": 0.004221
+      },
+      {
+        "feature": "tir_3_3_to__pct_day",
+        "value": 0.004145
+      },
+      {
+        "feature": "tir_3_to_3_5__min_day",
+        "value": 0.003706
+      },
+      {
+        "feature": "tir_13_9_to_16_7__min_day",
+        "value": 0.003604
+      },
+      {
+        "feature": "valid_data_ratio_day",
+        "value": 0.003274
+      },
+      {
+        "feature": "tir_below_10__min_day",
+        "value": 0.003199
+      },
+      {
+        "feature": "x_3_3_5_day",
+        "value": 0.003087
+      },
+      {
+        "feature": "tir_below_3_3__min_day",
+        "value": 0.002646
+      },
+      {
+        "feature": "x_3_3_11_1_day",
+        "value": 0.002555
+      },
+      {
+        "feature": "tir_3_5_to__pct_day",
+        "value": 0.002496
+      },
+      {
+        "feature": "tir_below_13_9__min_day",
+        "value": 0.001481
+      },
+      {
+        "feature": "tir_below_2_8__min_day",
+        "value": 0.001016
+      },
+      {
+        "feature": "tir_2_8_to__pct_day",
+        "value": 0.000699
+      },
+      {
+        "feature": "tir_3_to__pct_day",
+        "value": 0.000335
+      },
+      {
+        "feature": "ehba1c_mmol_mol_day",
+        "value": 0
+      },
+      {
+        "feature": "gmi_day",
+        "value": 0
+      },
+      {
+        "feature": "tir_below_8_3__min_day",
+        "value": 0
+      },
+      {
+        "feature": "tir_below_11_1__min_day",
+        "value": 0
+      }
+    ]
+  },
+  "metrics": [
+    {
+      "model": "M0",
+      "n": 1419,
+      "events": 174,
+      "auprc": 0.327,
+      "auroc": 0.7322,
+      "brier": 0.1402,
+      "sens_at_spec80": 0.5632,
+      "sensitivity": 0.5632,
+      "specificity": 0.9012,
+      "ppv": 0.4434,
+      "npv": 0.9366
+    },
+    {
+      "model": "M1",
+      "n": 1419,
+      "events": 174,
+      "auprc": 0.6417,
+      "auroc": 0.8701,
+      "brier": 0.1569,
+      "sens_at_spec80": 0.8103,
+      "sensitivity": 0.7356,
+      "specificity": 0.8675,
+      "ppv": 0.4369,
+      "npv": 0.9591
+    },
+    {
+      "model": "M2",
+      "n": 1419,
+      "events": 174,
+      "auprc": 0.6543,
+      "auroc": 0.8761,
+      "brier": 0.0977,
+      "sens_at_spec80": 0.7931,
+      "sensitivity": 0.8563,
+      "specificity": 0.7197,
+      "ppv": 0.2992,
+      "npv": 0.9729
+    }
+  ],
+  "metricsCi": [
+    {
+      "model": "M0",
+      "metric": "auprc",
+      "estimate": 0.327,
+      "lower": 0.2217,
+      "upper": 0.4896,
+      "n_valid_boot": 500
+    },
+    {
+      "model": "M0",
+      "metric": "auroc",
+      "estimate": 0.7322,
+      "lower": 0.6761,
+      "upper": 0.7903,
+      "n_valid_boot": 500
+    },
+    {
+      "model": "M0",
+      "metric": "brier",
+      "estimate": 0.1402,
+      "lower": 0.1074,
+      "upper": 0.1837,
+      "n_valid_boot": 500
+    },
+    {
+      "model": "M0",
+      "metric": "sensitivity.sensitivity",
+      "estimate": 0.5632,
+      "lower": 0.4522,
+      "upper": 0.6768,
+      "n_valid_boot": 500
+    },
+    {
+      "model": "M0",
+      "metric": "specificity.specificity",
+      "estimate": 0.9012,
+      "lower": 0.8645,
+      "upper": 0.9268,
+      "n_valid_boot": 500
+    },
+    {
+      "model": "M0",
+      "metric": "ppv.ppv",
+      "estimate": 0.4434,
+      "lower": 0.3184,
+      "upper": 0.5595,
+      "n_valid_boot": 500
+    },
+    {
+      "model": "M0",
+      "metric": "npv.npv",
+      "estimate": 0.9366,
+      "lower": 0.9058,
+      "upper": 0.9579,
+      "n_valid_boot": 500
+    },
+    {
+      "model": "M1",
+      "metric": "auprc",
+      "estimate": 0.6417,
+      "lower": 0.4401,
+      "upper": 0.7742,
+      "n_valid_boot": 500
+    },
+    {
+      "model": "M1",
+      "metric": "auroc",
+      "estimate": 0.8701,
+      "lower": 0.8007,
+      "upper": 0.9125,
+      "n_valid_boot": 500
+    },
+    {
+      "model": "M1",
+      "metric": "brier",
+      "estimate": 0.1569,
+      "lower": 0.1456,
+      "upper": 0.1692,
+      "n_valid_boot": 500
+    },
+    {
+      "model": "M1",
+      "metric": "sensitivity.sensitivity",
+      "estimate": 0.7356,
+      "lower": 0.5876,
+      "upper": 0.836,
+      "n_valid_boot": 500
+    },
+    {
+      "model": "M1",
+      "metric": "specificity.specificity",
+      "estimate": 0.8675,
+      "lower": 0.8106,
+      "upper": 0.9123,
+      "n_valid_boot": 500
+    },
+    {
+      "model": "M1",
+      "metric": "ppv.ppv",
+      "estimate": 0.4369,
+      "lower": 0.3262,
+      "upper": 0.5329,
+      "n_valid_boot": 500
+    },
+    {
+      "model": "M1",
+      "metric": "npv.npv",
+      "estimate": 0.9591,
+      "lower": 0.9398,
+      "upper": 0.9729,
+      "n_valid_boot": 500
+    },
+    {
+      "model": "M2",
+      "metric": "auprc",
+      "estimate": 0.6543,
+      "lower": 0.4369,
+      "upper": 0.7756,
+      "n_valid_boot": 500
+    },
+    {
+      "model": "M2",
+      "metric": "auroc",
+      "estimate": 0.8761,
+      "lower": 0.8066,
+      "upper": 0.9168,
+      "n_valid_boot": 500
+    },
+    {
+      "model": "M2",
+      "metric": "brier",
+      "estimate": 0.0977,
+      "lower": 0.0797,
+      "upper": 0.1183,
+      "n_valid_boot": 500
+    },
+    {
+      "model": "M2",
+      "metric": "sensitivity.sensitivity",
+      "estimate": 0.8563,
+      "lower": 0.7531,
+      "upper": 0.9202,
+      "n_valid_boot": 500
+    },
+    {
+      "model": "M2",
+      "metric": "specificity.specificity",
+      "estimate": 0.7197,
+      "lower": 0.6561,
+      "upper": 0.7798,
+      "n_valid_boot": 500
+    },
+    {
+      "model": "M2",
+      "metric": "ppv.ppv",
+      "estimate": 0.2992,
+      "lower": 0.2036,
+      "upper": 0.3963,
+      "n_valid_boot": 500
+    },
+    {
+      "model": "M2",
+      "metric": "npv.npv",
+      "estimate": 0.9729,
+      "lower": 0.9581,
+      "upper": 0.984,
+      "n_valid_boot": 500
+    }
+  ],
+  "calibration": [
+    {
+      "g": 1,
+      "n": 142,
+      "mean_pred": 0.246631690929366,
+      "observed": 0.0140845070422535,
+      "model": "M1",
+      "intercept": -1.4579,
+      "slope": 3.1395
+    },
+    {
+      "g": 2,
+      "n": 142,
+      "mean_pred": 0.304224565656943,
+      "observed": 0.00704225352112676,
+      "model": "M1",
+      "intercept": -1.4579,
+      "slope": 3.1395
+    },
+    {
+      "g": 3,
+      "n": 142,
+      "mean_pred": 0.328506943933558,
+      "observed": 0.0211267605633803,
+      "model": "M1",
+      "intercept": -1.4579,
+      "slope": 3.1395
+    },
+    {
+      "g": 4,
+      "n": 142,
+      "mean_pred": 0.34722955978248,
+      "observed": 0.0633802816901408,
+      "model": "M1",
+      "intercept": -1.4579,
+      "slope": 3.1395
+    },
+    {
+      "g": 5,
+      "n": 142,
+      "mean_pred": 0.368279844259741,
+      "observed": 0.0352112676056338,
+      "model": "M1",
+      "intercept": -1.4579,
+      "slope": 3.1395
+    },
+    {
+      "g": 6,
+      "n": 141,
+      "mean_pred": 0.388455806169787,
+      "observed": 0.0283687943262411,
+      "model": "M1",
+      "intercept": -1.4579,
+      "slope": 3.1395
+    },
+    {
+      "g": 7,
+      "n": 142,
+      "mean_pred": 0.415501919327318,
+      "observed": 0.0422535211267606,
+      "model": "M1",
+      "intercept": -1.4579,
+      "slope": 3.1395
+    },
+    {
+      "g": 8,
+      "n": 142,
+      "mean_pred": 0.452714157479152,
+      "observed": 0.126760563380282,
+      "model": "M1",
+      "intercept": -1.4579,
+      "slope": 3.1395
+    },
+    {
+      "g": 9,
+      "n": 142,
+      "mean_pred": 0.510110367003655,
+      "observed": 0.23943661971831,
+      "model": "M1",
+      "intercept": -1.4579,
+      "slope": 3.1395
+    },
+    {
+      "g": 10,
+      "n": 142,
+      "mean_pred": 0.677831882384715,
+      "observed": 0.647887323943662,
+      "model": "M1",
+      "intercept": -1.4579,
+      "slope": 3.1395
+    },
+    {
+      "g": 1,
+      "n": 142,
+      "mean_pred": 0.0046836062687823,
+      "observed": 0.028169014084507,
+      "model": "M2",
+      "intercept": -1.4254,
+      "slope": 0.8458
+    },
+    {
+      "g": 2,
+      "n": 142,
+      "mean_pred": 0.0110314157660264,
+      "observed": 0,
+      "model": "M2",
+      "intercept": -1.4254,
+      "slope": 0.8458
+    },
+    {
+      "g": 3,
+      "n": 142,
+      "mean_pred": 0.0228756430532626,
+      "observed": 0.0422535211267606,
+      "model": "M2",
+      "intercept": -1.4254,
+      "slope": 0.8458
+    },
+    {
+      "g": 4,
+      "n": 142,
+      "mean_pred": 0.050014043279307,
+      "observed": 0.0140845070422535,
+      "model": "M2",
+      "intercept": -1.4254,
+      "slope": 0.8458
+    },
+    {
+      "g": 5,
+      "n": 142,
+      "mean_pred": 0.095022055936951,
+      "observed": 0.028169014084507,
+      "model": "M2",
+      "intercept": -1.4254,
+      "slope": 0.8458
+    },
+    {
+      "g": 6,
+      "n": 141,
+      "mean_pred": 0.162589337174774,
+      "observed": 0.0425531914893617,
+      "model": "M2",
+      "intercept": -1.4254,
+      "slope": 0.8458
+    },
+    {
+      "g": 7,
+      "n": 142,
+      "mean_pred": 0.248214870901175,
+      "observed": 0.0915492957746479,
+      "model": "M2",
+      "intercept": -1.4254,
+      "slope": 0.8458
+    },
+    {
+      "g": 8,
+      "n": 142,
+      "mean_pred": 0.380177280642617,
+      "observed": 0.0633802816901408,
+      "model": "M2",
+      "intercept": -1.4254,
+      "slope": 0.8458
+    },
+    {
+      "g": 9,
+      "n": 142,
+      "mean_pred": 0.595674261031017,
+      "observed": 0.232394366197183,
+      "model": "M2",
+      "intercept": -1.4254,
+      "slope": 0.8458
+    },
+    {
+      "g": 10,
+      "n": 142,
+      "mean_pred": 0.87983936533122,
+      "observed": 0.683098591549296,
+      "model": "M2",
+      "intercept": -1.4254,
+      "slope": 0.8458
+    }
+  ],
+  "dca": [
+    {
+      "model": "M1",
+      "threshold": 0.05,
+      "net_benefit_model": 0.07644,
+      "net_benefit_treat_all": 0.07644,
+      "net_benefit_treat_none": 0
+    },
+    {
+      "model": "M1",
+      "threshold": 0.1,
+      "net_benefit_model": 0.02514,
+      "net_benefit_treat_all": 0.02514,
+      "net_benefit_treat_none": 0
+    },
+    {
+      "model": "M1",
+      "threshold": 0.15,
+      "net_benefit_model": -0.03171,
+      "net_benefit_treat_all": -0.03221,
+      "net_benefit_treat_none": 0
+    },
+    {
+      "model": "M1",
+      "threshold": 0.2,
+      "net_benefit_model": -0.09479,
+      "net_benefit_treat_all": -0.09672,
+      "net_benefit_treat_none": 0
+    },
+    {
+      "model": "M1",
+      "threshold": 0.25,
+      "net_benefit_model": -0.15621,
+      "net_benefit_treat_all": -0.16984,
+      "net_benefit_treat_none": 0
+    },
+    {
+      "model": "M1",
+      "threshold": 0.3,
+      "net_benefit_model": -0.19712,
+      "net_benefit_treat_all": -0.2534,
+      "net_benefit_treat_none": 0
+    },
+    {
+      "model": "M1",
+      "threshold": 0.35,
+      "net_benefit_model": -0.16626,
+      "net_benefit_treat_all": -0.34981,
+      "net_benefit_treat_none": 0
+    },
+    {
+      "model": "M1",
+      "threshold": 0.4,
+      "net_benefit_model": -0.0902,
+      "net_benefit_treat_all": -0.4623,
+      "net_benefit_treat_none": 0
+    },
+    {
+      "model": "M1",
+      "threshold": 0.45,
+      "net_benefit_model": -0.0328,
+      "net_benefit_treat_all": -0.59523,
+      "net_benefit_treat_none": 0
+    },
+    {
+      "model": "M1",
+      "threshold": 0.5,
+      "net_benefit_model": 0.00352,
+      "net_benefit_treat_all": -0.75476,
+      "net_benefit_treat_none": 0
+    },
+    {
+      "model": "M1",
+      "threshold": 0.55,
+      "net_benefit_model": 0.01613,
+      "net_benefit_treat_all": -0.94973,
+      "net_benefit_treat_none": 0
+    },
+    {
+      "model": "M1",
+      "threshold": 0.6,
+      "net_benefit_model": 0.02185,
+      "net_benefit_treat_all": -1.19345,
+      "net_benefit_treat_none": 0
+    },
+    {
+      "model": "M2",
+      "threshold": 0.05,
+      "net_benefit_model": 0.08765,
+      "net_benefit_treat_all": 0.07644,
+      "net_benefit_treat_none": 0
+    },
+    {
+      "model": "M2",
+      "threshold": 0.1,
+      "net_benefit_model": 0.06577,
+      "net_benefit_treat_all": 0.02514,
+      "net_benefit_treat_none": 0
+    },
+    {
+      "model": "M2",
+      "threshold": 0.15,
+      "net_benefit_model": 0.04713,
+      "net_benefit_treat_all": -0.03221,
+      "net_benefit_treat_none": 0
+    },
+    {
+      "model": "M2",
+      "threshold": 0.2,
+      "net_benefit_model": 0.0333,
+      "net_benefit_treat_all": -0.09672,
+      "net_benefit_treat_none": 0
+    },
+    {
+      "model": "M2",
+      "threshold": 0.25,
+      "net_benefit_model": 0.02373,
+      "net_benefit_treat_all": -0.16984,
+      "net_benefit_treat_none": 0
+    },
+    {
+      "model": "M2",
+      "threshold": 0.3,
+      "net_benefit_model": 0.01067,
+      "net_benefit_treat_all": -0.2534,
+      "net_benefit_treat_none": 0
+    },
+    {
+      "model": "M2",
+      "threshold": 0.35,
+      "net_benefit_model": 0.00428,
+      "net_benefit_treat_all": -0.34981,
+      "net_benefit_treat_none": 0
+    },
+    {
+      "model": "M2",
+      "threshold": 0.4,
+      "net_benefit_model": -0.00117,
+      "net_benefit_treat_all": -0.4623,
+      "net_benefit_treat_none": 0
+    },
+    {
+      "model": "M2",
+      "threshold": 0.45,
+      "net_benefit_model": -0.00224,
+      "net_benefit_treat_all": -0.59523,
+      "net_benefit_treat_none": 0
+    },
+    {
+      "model": "M2",
+      "threshold": 0.5,
+      "net_benefit_model": -0.00352,
+      "net_benefit_treat_all": -0.75476,
+      "net_benefit_treat_none": 0
+    },
+    {
+      "model": "M2",
+      "threshold": 0.55,
+      "net_benefit_model": -0.00807,
+      "net_benefit_treat_all": -0.94973,
+      "net_benefit_treat_none": 0
+    },
+    {
+      "model": "M2",
+      "threshold": 0.6,
+      "net_benefit_model": -0.02114,
+      "net_benefit_treat_all": -1.19345,
+      "net_benefit_treat_none": 0
+    }
+  ],
+  "cohort": {
+    "patients": 395,
+    "patientDays": 8742,
+    "events": 1300,
+    "eventPct": 14.87,
+    "testPatients": 79,
+    "testPatientDays": 1419,
+    "testEvents": 174,
+    "testEventPct": 12.26
+  },
+  "notes": {
+    "m0Rule": "Previous-night time below 3.9 mmol/L >= 15 minutes",
+    "thresholdSource": "05_model_fits.rds (as used by R06 final evaluation)",
+    "calibrationWarning": "Probabilities are not individually calibrated. Use for ranking and threshold exploration only."
+  }
+}
